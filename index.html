@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="KARYA ABADI.COPAS - Tools copy paste file terbaik. Duplikasi file apapun dengan jumlah tertentu, langsung download format ZIP. Gratis, cepat, tanpa batas.">
+    <meta name="description" content="KARYA ABADI COPAS - Tools copy paste file terbaik. Duplikasi file apapun dengan jumlah tertentu, langsung download format ZIP. Gratis, cepat, tanpa batas.">
     <meta name="keywords" content="copy paste file, duplikasi file, download zip, file duplicator, karya abadi copas, tools file gratis, copy file online, bulk file copy">
-    <meta name="author" content="KARYA ABADI.COPAS">
+    <meta name="author" content="KARYA ABADI COPAS">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#0A0A0A">
 
-    <meta property="og:title" content="KARYA ABADI.COPAS - Copy Paste File & Download ZIP">
+    <meta property="og:title" content="KARYA ABADI COPAS - Copy Paste File & Download ZIP">
     <meta property="og:description" content="Tools duplikasi file online. Upload file, tentukan jumlah copy, download ZIP langsung. Gratis tanpa batas.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://z-cdn-media.chatglm.cn/files/f0bdb776-0220-4d0d-bbba-c8ade88390a8.png?auth_key=1882133467-6cb32756eda248d28eb7bbd9dcbad9ef-0-2b686b0276c78e2cb15f9d67b62ce0c2">
     <meta property="og:locale" content="id_ID">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="KARYA ABADI.COPAS - Copy Paste File & Download ZIP">
+    <meta name="twitter:title" content="KARYA ABADI COPAS - Copy Paste File & Download ZIP">
     <meta name="twitter:description" content="Tools duplikasi file online terbaik. Upload, tentukan jumlah, download ZIP.">
 
-    <title>KARYA ABADI.COPAS - Copy Paste File & Download ZIP | Tools Gratis</title>
+    <title>KARYA ABADI COPAS - Copy Paste File & Download ZIP | Tools Gratis</title>
 
     <link rel="icon" type="image/png" href="https://z-cdn-media.chatglm.cn/files/f0bdb776-0220-4d0d-bbba-c8ade88390a8.png?auth_key=1882133467-6cb32756eda248d28eb7bbd9dcbad9ef-0-2b686b0276c78e2cb15f9d67b62ce0c2">
     <link rel="apple-touch-icon" href="https://z-cdn-media.chatglm.cn/files/f0bdb776-0220-4d0d-bbba-c8ade88390a8.png?auth_key=1882133467-6cb32756eda248d28eb7bbd9dcbad9ef-0-2b686b0276c78e2cb15f9d67b62ce0c2">
@@ -35,13 +35,13 @@
     {
         "@context": "https://schema.org",
         "@type": "WebApplication",
-        "name": "KARYA ABADI.COPAS",
+        "name": "KARYA ABADI COPAS",
         "description": "Tools copy paste file online dengan fitur download format ZIP.",
         "url": "https://karyaabadicopas.com",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "All",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "IDR" },
-        "author": { "@type": "Organization", "name": "KARYA ABADI", "email": "karyaabadi24434@gmail.com" }
+        "author": { "@type": "Organization", "name": "KARYA ABADI COPAS", "email": "karyaabadi24434@gmail.com" }
     }
     </script>
     <script type="application/ld+json">
@@ -49,7 +49,7 @@
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-            { "@type": "Question", "name": "Apa itu KARYA ABADI.COPAS?", "acceptedAnswer": { "@type": "Answer", "text": "Tools online gratis untuk menduplikasi file dalam jumlah tertentu dan mengunduhnya dalam format ZIP." }},
+            { "@type": "Question", "name": "Apa itu KARYA ABADI COPAS?", "acceptedAnswer": { "@type": "Answer", "text": "Tools online gratis untuk menduplikasi file dalam jumlah tertentu dan mengunduhnya dalam format ZIP." }},
             { "@type": "Question", "name": "Apakah file saya aman?", "acceptedAnswer": { "@type": "Answer", "text": "Ya, semua proses dilakukan di browser. Tidak ada file yang diunggah ke server." }},
             { "@type": "Question", "name": "Format file apa saja yang didukung?", "acceptedAnswer": { "@type": "Answer", "text": "Semua format file didukung termasuk PDF, JPG, PNG, MP4, DOCX, XLSX, dan lainnya." }}
         ]
@@ -120,10 +120,7 @@
             from { opacity: 0; transform: translateY(-10px); }
             to { opacity: 1; transform: translateY(0); }
         }
-        @keyframes pulseRed {
-            0%, 100% { box-shadow: 0 0 15px var(--red-glow); }
-            50% { box-shadow: 0 0 35px var(--red-glow); }
-        }
+        @keyframes glowPulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.8; } }
         @keyframes progressStripe {
             0% { background-position: 0 0; }
             100% { background-position: 40px 0; }
@@ -134,907 +131,399 @@
             25% { transform: translateX(-5px); }
             75% { transform: translateX(5px); }
         }
-        @keyframes glowPulse {
-            0%, 100% { opacity: 0.4; }
-            50% { opacity: 0.8; }
+        @keyframes iconFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-6px); }
         }
 
         /* NAVBAR */
         .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 68px;
-            background: rgba(10,10,10,0.88);
-            backdrop-filter: blur(20px);
+            position: fixed; top: 0; left: 0; right: 0; height: 68px;
+            background: rgba(10,10,10,0.88); backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--border);
-            z-index: 1000;
-            display: flex;
-            align-items: center;
-            padding: 0 24px;
+            border-bottom: 1px solid var(--border); z-index: 1000;
+            display: flex; align-items: center; padding: 0 24px;
         }
         .navbar-inner {
-            max-width: 1120px;
-            width: 100%;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+            max-width: 1120px; width: 100%; margin: 0 auto;
+            display: flex; align-items: center; justify-content: space-between;
         }
-        .logo-group {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-        }
-        .logo-img {
-            width: 38px;
-            height: 38px;
-            border-radius: var(--radius-sm);
-            object-fit: cover;
-            border: 1px solid var(--border);
-        }
-        .logo-text {
-            font-size: 17px;
-            font-weight: 700;
-            color: var(--white);
-            letter-spacing: -0.02em;
-        }
+        .logo-group { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+        .logo-img { width: 38px; height: 38px; border-radius: var(--radius-sm); object-fit: cover; border: 1px solid var(--border); }
+        .logo-text { font-size: 17px; font-weight: 700; color: var(--white); letter-spacing: -0.02em; }
         .logo-text span { color: var(--red-bright); }
-        .nav-links { display: flex; align-items: center; gap: 6px; }
+        .nav-links { display: flex; align-items: center; gap: 4px; }
         .nav-link {
-            padding: 7px 15px;
-            font-size: 13px;
-            font-weight: 500;
-            color: var(--white-mid);
-            text-decoration: none;
-            border-radius: var(--radius-full);
-            transition: all var(--fast);
-            border: 1px solid transparent;
+            padding: 7px 13px; font-size: 12px; font-weight: 500; color: var(--white-mid);
+            text-decoration: none; border-radius: var(--radius-full); transition: all var(--fast); border: 1px solid transparent;
         }
-        .nav-link:hover {
-            color: var(--white);
-            background: rgba(255,255,255,0.05);
-            border-color: var(--border);
-        }
+        .nav-link:hover { color: var(--white); background: rgba(255,255,255,0.05); border-color: var(--border); }
         .nav-cta {
-            padding: 8px 20px;
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--white);
-            background: var(--red);
-            border-radius: var(--radius-full);
-            text-decoration: none;
-            transition: all var(--fast);
-            border: none;
-            cursor: pointer;
+            padding: 8px 18px; font-size: 12px; font-weight: 600; color: var(--white);
+            background: var(--red); border-radius: var(--radius-full); text-decoration: none;
+            transition: all var(--fast); border: none; cursor: pointer;
         }
-        .nav-cta:hover {
-            background: var(--red-bright);
-            box-shadow: 0 0 24px var(--red-glow);
-        }
-        .mobile-toggle {
-            display: none;
-            background: none;
-            border: none;
-            color: var(--white);
-            cursor: pointer;
-            padding: 8px;
-        }
+        .nav-cta:hover { background: var(--red-bright); box-shadow: 0 0 24px var(--red-glow); }
+        .mobile-toggle { display: none; background: none; border: none; color: var(--white); cursor: pointer; padding: 8px; }
         .mobile-menu {
-            display: none;
-            position: fixed;
-            top: 68px;
-            left: 0;
-            right: 0;
-            background: rgba(10,10,10,0.96);
-            backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--border);
-            padding: 16px 24px;
-            flex-direction: column;
-            gap: 6px;
-            z-index: 999;
+            display: none; position: fixed; top: 68px; left: 0; right: 0;
+            background: rgba(10,10,10,0.96); backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border); padding: 16px 24px;
+            flex-direction: column; gap: 6px; z-index: 999;
         }
         .mobile-menu.active { display: flex; }
         .mobile-menu .nav-link { display: block; padding: 12px 16px; border-radius: var(--radius-md); }
-        @media (max-width: 768px) {
-            .nav-links { display: none; }
-            .mobile-toggle { display: block; }
-        }
+        @media (max-width: 768px) { .nav-links { display: none; } .mobile-toggle { display: block; } }
 
         /* HERO */
-        .hero {
-            padding: 140px 24px 50px;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
+        .hero { padding: 140px 24px 50px; text-align: center; position: relative; overflow: hidden; }
         .hero::before {
-            content: '';
-            position: absolute;
-            top: -180px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 700px;
-            height: 450px;
-            background: radial-gradient(ellipse, rgba(220,38,38,0.08) 0%, transparent 70%);
-            pointer-events: none;
-        }
-        .hero::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 500px;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, var(--red-border), transparent);
+            content: ''; position: absolute; top: -180px; left: 50%; transform: translateX(-50%);
+            width: 700px; height: 450px;
+            background: radial-gradient(ellipse, rgba(220,38,38,0.08) 0%, transparent 70%); pointer-events: none;
         }
         .hero-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 5px 16px 5px 8px;
-            background: var(--red-subtle);
-            border: 1px solid var(--red-border);
-            border-radius: var(--radius-full);
-            font-size: 12px;
-            font-weight: 500;
-            color: var(--red-bright);
-            margin-bottom: 28px;
-            animation: fadeInUp 0.5s ease-out;
+            display: inline-flex; align-items: center; gap: 8px; padding: 5px 16px 5px 8px;
+            background: var(--red-subtle); border: 1px solid var(--red-border);
+            border-radius: var(--radius-full); font-size: 12px; font-weight: 500;
+            color: var(--red-bright); margin-bottom: 28px; animation: fadeInUp 0.5s ease-out;
         }
-        .hero-badge-dot {
-            width: 7px;
-            height: 7px;
-            background: var(--red-bright);
-            border-radius: 50%;
-            animation: glowPulse 2s ease-in-out infinite;
-        }
+        .hero-badge-dot { width: 7px; height: 7px; background: var(--red-bright); border-radius: 50%; animation: glowPulse 2s ease-in-out infinite; }
         .hero h1 {
-            font-size: clamp(34px, 6vw, 62px);
-            font-weight: 800;
-            line-height: 1.05;
-            letter-spacing: -0.04em;
-            margin-bottom: 20px;
-            animation: fadeInUp 0.6s ease-out 0.1s both;
+            font-size: clamp(34px, 6vw, 62px); font-weight: 800; line-height: 1.05;
+            letter-spacing: -0.04em; margin-bottom: 20px; animation: fadeInUp 0.6s ease-out 0.1s both;
         }
         .hero h1 .red { color: var(--red-bright); }
         .hero p {
-            font-size: clamp(15px, 2vw, 17px);
-            color: var(--white-mid);
-            max-width: 580px;
-            margin: 0 auto 36px;
-            line-height: 1.75;
-            animation: fadeInUp 0.6s ease-out 0.2s both;
+            font-size: clamp(15px, 2vw, 17px); color: var(--white-mid); max-width: 580px;
+            margin: 0 auto 36px; line-height: 1.75; animation: fadeInUp 0.6s ease-out 0.2s both;
         }
         .hero-actions {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            flex-wrap: wrap;
-            animation: fadeInUp 0.6s ease-out 0.3s both;
+            display: flex; align-items: center; justify-content: center; gap: 12px;
+            flex-wrap: wrap; animation: fadeInUp 0.6s ease-out 0.3s both;
         }
 
         /* BUTTONS */
         .btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            padding: 13px 30px;
-            font-size: 14px;
-            font-weight: 600;
-            font-family: 'Inter', sans-serif;
-            border-radius: var(--radius-full);
-            cursor: pointer;
-            transition: all var(--normal);
-            text-decoration: none;
-            border: none;
-            white-space: nowrap;
+            display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+            padding: 13px 30px; font-size: 14px; font-weight: 600; font-family: 'Inter', sans-serif;
+            border-radius: var(--radius-full); cursor: pointer; transition: all var(--normal);
+            text-decoration: none; border: none; white-space: nowrap;
         }
-        .btn-primary {
-            background: var(--red);
-            color: var(--white);
-        }
-        .btn-primary:hover {
-            background: var(--red-bright);
-            box-shadow: 0 0 28px var(--red-glow);
-            transform: translateY(-1px);
-        }
+        .btn-primary { background: var(--red); color: var(--white); }
+        .btn-primary:hover { background: var(--red-bright); box-shadow: 0 0 28px var(--red-glow); transform: translateY(-1px); }
         .btn-primary:active { transform: translateY(0); }
-        .btn-primary:disabled {
-            opacity: 0.35;
-            cursor: not-allowed;
-            transform: none;
-            box-shadow: none;
-        }
-        .btn-secondary {
-            background: rgba(255,255,255,0.06);
-            color: var(--white);
-            border: 1px solid var(--border);
-        }
-        .btn-secondary:hover {
-            background: rgba(255,255,255,0.1);
-            border-color: var(--border-hover);
-        }
-        .btn-danger {
-            background: var(--red-subtle);
-            color: var(--red-bright);
-            border: 1px solid var(--red-border);
-        }
+        .btn-primary:disabled { opacity: 0.35; cursor: not-allowed; transform: none; box-shadow: none; }
+        .btn-secondary { background: rgba(255,255,255,0.06); color: var(--white); border: 1px solid var(--border); }
+        .btn-secondary:hover { background: rgba(255,255,255,0.1); border-color: var(--border-hover); }
+        .btn-danger { background: var(--red-subtle); color: var(--red-bright); border: 1px solid var(--red-border); }
         .btn-danger:hover { background: rgba(220,38,38,0.15); }
         .btn-sm { padding: 7px 16px; font-size: 12px; font-weight: 500; }
-        .btn-white {
-            background: var(--white);
-            color: var(--black);
-        }
-        .btn-white:hover {
-            background: rgba(255,255,255,0.9);
-            box-shadow: 0 0 20px rgba(255,255,255,0.1);
-            transform: translateY(-1px);
-        }
 
-        /* STATS BAR */
-        .stats-bar {
-            max-width: 1120px;
-            margin: 0 auto 50px;
-            padding: 0 24px;
-        }
+        /* STATS */
+        .stats-bar { max-width: 1120px; margin: 0 auto 50px; padding: 0 24px; }
         .stats-inner {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            background: var(--black-soft);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-lg);
-            padding: 22px 28px;
-            gap: 20px;
+            display: grid; grid-template-columns: repeat(4, 1fr); background: var(--black-soft);
+            border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 22px 28px; gap: 20px;
         }
         .stat-item { text-align: center; }
-        .stat-value {
-            font-size: 26px;
-            font-weight: 700;
-            color: var(--red-bright);
-            letter-spacing: -0.02em;
-        }
-        .stat-label {
-            font-size: 11px;
-            color: var(--white-dim);
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            margin-top: 3px;
-        }
-        @media (max-width: 768px) {
-            .stats-inner { grid-template-columns: repeat(2, 1fr); padding: 18px; }
-        }
+        .stat-value { font-size: 26px; font-weight: 700; color: var(--red-bright); letter-spacing: -0.02em; }
+        .stat-label { font-size: 11px; color: var(--white-dim); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 3px; }
+        @media (max-width: 768px) { .stats-inner { grid-template-columns: repeat(2, 1fr); padding: 18px; } }
 
         /* SECTIONS */
-        .section {
-            max-width: 1120px;
-            margin: 0 auto;
-            padding: 50px 24px;
-        }
-        .section-header {
-            text-align: center;
-            margin-bottom: 44px;
-        }
+        .section { max-width: 1120px; margin: 0 auto; padding: 50px 24px; }
+        .section-header { text-align: center; margin-bottom: 44px; }
         .section-tag {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--red-bright);
-            margin-bottom: 14px;
+            display: inline-block; font-size: 11px; font-weight: 600; text-transform: uppercase;
+            letter-spacing: 0.1em; color: var(--red-bright); margin-bottom: 14px;
         }
-        .section-tag::before, .section-tag::after {
-            content: '';
-            width: 20px;
-            height: 1px;
-            background: var(--red);
-        }
-        .section-title {
-            font-size: clamp(26px, 4vw, 38px);
-            font-weight: 700;
-            letter-spacing: -0.03em;
-            margin-bottom: 14px;
-        }
-        .section-desc {
-            font-size: 15px;
-            color: var(--white-mid);
-            max-width: 520px;
-            margin: 0 auto;
-            line-height: 1.75;
-        }
+        .section-title { font-size: clamp(26px, 4vw, 38px); font-weight: 700; letter-spacing: -0.03em; margin-bottom: 14px; }
+        .section-desc { font-size: 15px; color: var(--white-mid); max-width: 520px; margin: 0 auto; line-height: 1.75; }
 
-        /* TOOL CONTAINER */
+        /* TOOL */
         .tool-container {
-            background: var(--black-soft);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-xl);
-            padding: 36px;
-            box-shadow: var(--shadow);
-            position: relative;
-            overflow: hidden;
-        }
-        .tool-container::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--red), transparent);
-            opacity: 0.6;
+            background: var(--black-soft); border: 1px solid var(--border); border-radius: var(--radius-xl);
+            padding: 36px; box-shadow: var(--shadow); position: relative; overflow: hidden;
         }
 
-        /* UPLOAD ZONE */
+        /* UPLOAD */
         .upload-zone {
-            border: 2px dashed rgba(255,255,255,0.1);
-            border-radius: var(--radius-lg);
-            padding: 48px 24px;
-            text-align: center;
-            cursor: pointer;
-            transition: all var(--normal);
-            position: relative;
-            background: rgba(255,255,255,0.01);
+            border: 2px dashed rgba(255,255,255,0.1); border-radius: var(--radius-lg);
+            padding: 48px 24px; text-align: center; cursor: pointer; transition: all var(--normal);
+            position: relative; background: rgba(255,255,255,0.01);
         }
-        .upload-zone:hover, .upload-zone.dragover {
-            border-color: var(--red);
-            background: var(--red-subtle);
-        }
+        .upload-zone:hover, .upload-zone.dragover { border-color: var(--red); background: var(--red-subtle); }
         .upload-zone.dragover { transform: scale(1.005); }
-        .upload-zone.has-file {
-            border-color: var(--success);
-            border-style: solid;
-            background: rgba(34,197,94,0.03);
-        }
+        .upload-zone.has-file { border-color: var(--success); border-style: solid; background: rgba(34,197,94,0.03); }
         .upload-icon {
-            width: 64px;
-            height: 64px;
-            margin: 0 auto 16px;
-            background: var(--red-subtle);
-            border: 1px solid var(--red-border);
-            border-radius: var(--radius-md);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--red-bright);
-            transition: all var(--normal);
+            width: 64px; height: 64px; margin: 0 auto 16px; background: var(--red-subtle);
+            border: 1px solid var(--red-border); border-radius: var(--radius-md);
+            display: flex; align-items: center; justify-content: center;
+            color: var(--red-bright); transition: all var(--normal);
         }
-        .upload-zone:hover .upload-icon {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 24px var(--red-glow);
-        }
-        .upload-title {
-            font-size: 16px;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: var(--white);
-        }
-        .upload-subtitle {
-            font-size: 13px;
-            color: var(--white-dim);
-            margin-bottom: 18px;
-        }
-        .upload-formats {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 6px;
-            flex-wrap: wrap;
-        }
+        .upload-zone:hover .upload-icon { transform: translateY(-4px); box-shadow: 0 8px 24px var(--red-glow); }
+        .upload-title { font-size: 16px; font-weight: 600; margin-bottom: 8px; color: var(--white); }
+        .upload-subtitle { font-size: 13px; color: var(--white-dim); margin-bottom: 18px; }
+        .upload-formats { display: flex; align-items: center; justify-content: center; gap: 6px; flex-wrap: wrap; }
         .format-tag {
-            padding: 3px 10px;
-            font-size: 10px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            background: rgba(255,255,255,0.04);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-full);
-            color: var(--white-dim);
+            padding: 3px 10px; font-size: 10px; font-weight: 600; text-transform: uppercase;
+            letter-spacing: 0.05em; background: rgba(255,255,255,0.04); border: 1px solid var(--border);
+            border-radius: var(--radius-full); color: var(--white-dim);
         }
         .upload-input { display: none; }
 
         /* FILE PREVIEW */
         .file-preview {
-            display: none;
-            align-items: center;
-            gap: 14px;
-            padding: 14px 18px;
-            background: var(--black-card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-md);
-            margin-top: 18px;
-            animation: slideDown 0.3s ease-out;
+            display: none; align-items: center; gap: 14px; padding: 14px 18px;
+            background: var(--black-card); border: 1px solid var(--border); border-radius: var(--radius-md);
+            margin-top: 18px; animation: slideDown 0.3s ease-out;
         }
         .file-preview.visible { display: flex; }
         .file-preview-icon {
-            width: 46px;
-            height: 46px;
-            background: var(--red-subtle);
-            border: 1px solid var(--red-border);
-            border-radius: var(--radius-sm);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--red-bright);
-            flex-shrink: 0;
+            width: 46px; height: 46px; background: var(--red-subtle); border: 1px solid var(--red-border);
+            border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center;
+            color: var(--red-bright); flex-shrink: 0;
         }
         .file-preview-info { flex: 1; min-width: 0; }
-        .file-preview-name {
-            font-size: 14px;
-            font-weight: 600;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        .file-preview-meta {
-            font-size: 12px;
-            color: var(--white-dim);
-            margin-top: 2px;
-        }
+        .file-preview-name { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .file-preview-meta { font-size: 12px; color: var(--white-dim); margin-top: 2px; }
         .file-preview-remove {
-            width: 32px;
-            height: 32px;
-            background: var(--red-subtle);
-            border: 1px solid var(--red-border);
-            border-radius: var(--radius-sm);
-            color: var(--red-bright);
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all var(--fast);
-            flex-shrink: 0;
+            width: 32px; height: 32px; background: var(--red-subtle); border: 1px solid var(--red-border);
+            border-radius: var(--radius-sm); color: var(--red-bright); cursor: pointer;
+            display: flex; align-items: center; justify-content: center; transition: all var(--fast); flex-shrink: 0;
         }
         .file-preview-remove:hover { background: rgba(220,38,38,0.2); }
 
         /* CONTROLS */
-        .controls-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr auto;
-            gap: 16px;
-            margin-top: 22px;
-            align-items: end;
-        }
+        .controls-row { display: grid; grid-template-columns: 1fr 1fr auto; gap: 16px; margin-top: 22px; align-items: end; }
         @media (max-width: 640px) { .controls-row { grid-template-columns: 1fr; } }
         .control-group label {
-            display: block;
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            color: var(--white-mid);
-            margin-bottom: 8px;
+            display: block; font-size: 11px; font-weight: 600; text-transform: uppercase;
+            letter-spacing: 0.08em; color: var(--white-mid); margin-bottom: 8px;
         }
         .control-input {
-            width: 100%;
-            padding: 11px 16px;
-            font-size: 14px;
-            font-family: 'Inter', sans-serif;
-            font-weight: 500;
-            background: var(--black-card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-md);
-            color: var(--white);
-            transition: all var(--fast);
-            outline: none;
+            width: 100%; padding: 11px 16px; font-size: 14px; font-family: 'Inter', sans-serif;
+            font-weight: 500; background: var(--black-card); border: 1px solid var(--border);
+            border-radius: var(--radius-md); color: var(--white); transition: all var(--fast); outline: none;
         }
-        .control-input:focus {
-            border-color: var(--red);
-            box-shadow: 0 0 0 3px var(--red-glow);
-        }
+        .control-input:focus { border-color: var(--red); box-shadow: 0 0 0 3px var(--red-glow); }
         .control-input::placeholder { color: var(--white-dim); }
         .input-hint { font-size: 11px; color: var(--white-dim); margin-top: 6px; }
 
-        /* NUMBER INPUT */
         .number-input-wrapper {
-            display: flex;
-            align-items: center;
-            background: var(--black-card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-md);
-            overflow: hidden;
-            transition: all var(--fast);
+            display: flex; align-items: center; background: var(--black-card); border: 1px solid var(--border);
+            border-radius: var(--radius-md); overflow: hidden; transition: all var(--fast);
         }
-        .number-input-wrapper:focus-within {
-            border-color: var(--red);
-            box-shadow: 0 0 0 3px var(--red-glow);
-        }
+        .number-input-wrapper:focus-within { border-color: var(--red); box-shadow: 0 0 0 3px var(--red-glow); }
         .number-btn {
-            width: 44px;
-            height: 44px;
-            background: rgba(255,255,255,0.03);
-            border: none;
-            color: var(--white-mid);
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all var(--fast);
-            font-size: 18px;
-            font-weight: 500;
+            width: 44px; height: 44px; background: rgba(255,255,255,0.03); border: none;
+            color: var(--white-mid); cursor: pointer; display: flex; align-items: center;
+            justify-content: center; transition: all var(--fast); font-size: 18px; font-weight: 500;
         }
         .number-btn:hover { background: rgba(255,255,255,0.08); color: var(--white); }
         .number-input {
-            flex: 1;
-            text-align: center;
-            border: none;
-            background: transparent;
-            color: var(--white);
-            font-size: 16px;
-            font-weight: 700;
-            font-family: 'Inter', sans-serif;
-            outline: none;
-            -moz-appearance: textfield;
+            flex: 1; text-align: center; border: none; background: transparent; color: var(--white);
+            font-size: 16px; font-weight: 700; font-family: 'Inter', sans-serif; outline: none; -moz-appearance: textfield;
         }
-        .number-input::-webkit-outer-spin-button,
-        .number-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+        .number-input::-webkit-outer-spin-button, .number-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 
-        /* QUICK COPIES */
-        .quick-copies {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            margin-top: 10px;
-            flex-wrap: wrap;
-        }
+        .quick-copies { display: flex; align-items: center; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
         .quick-copy-btn {
-            padding: 4px 12px;
-            font-size: 11px;
-            font-weight: 600;
-            font-family: 'Inter', sans-serif;
-            background: rgba(255,255,255,0.03);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-full);
-            color: var(--white-dim);
-            cursor: pointer;
-            transition: all var(--fast);
+            padding: 4px 12px; font-size: 11px; font-weight: 600; font-family: 'Inter', sans-serif;
+            background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: var(--radius-full);
+            color: var(--white-dim); cursor: pointer; transition: all var(--fast);
         }
-        .quick-copy-btn:hover {
-            border-color: var(--red);
-            color: var(--red-bright);
-            background: var(--red-subtle);
-        }
+        .quick-copy-btn:hover { border-color: var(--red); color: var(--red-bright); background: var(--red-subtle); }
 
         /* PROGRESS */
-        .progress-section {
-            display: none;
-            margin-top: 22px;
-            animation: fadeIn 0.3s ease-out;
-        }
+        .progress-section { display: none; margin-top: 22px; animation: fadeIn 0.3s ease-out; }
         .progress-section.visible { display: block; }
-        .progress-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
+        .progress-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
         .progress-label { font-size: 13px; font-weight: 500; color: var(--white-mid); }
         .progress-percent { font-size: 13px; font-weight: 700; color: var(--red-bright); }
-        .progress-bar-bg {
-            width: 100%;
-            height: 8px;
-            background: rgba(255,255,255,0.06);
-            border-radius: var(--radius-full);
-            overflow: hidden;
-        }
+        .progress-bar-bg { width: 100%; height: 8px; background: rgba(255,255,255,0.06); border-radius: var(--radius-full); overflow: hidden; }
         .progress-bar-fill {
-            height: 100%;
-            background: linear-gradient(90deg, var(--red-dark), var(--red-bright));
-            border-radius: var(--radius-full);
-            transition: width 0.3s ease;
-            position: relative;
+            height: 100%; background: linear-gradient(90deg, var(--red-dark), var(--red-bright));
+            border-radius: var(--radius-full); transition: width 0.3s ease; position: relative;
         }
         .progress-bar-fill.active::after {
-            content: '';
-            position: absolute;
-            inset: 0;
+            content: ''; position: absolute; inset: 0;
             background: linear-gradient(-45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%);
-            background-size: 40px 40px;
-            animation: progressStripe 0.8s linear infinite;
+            background-size: 40px 40px; animation: progressStripe 0.8s linear infinite;
         }
         .progress-detail { font-size: 11px; color: var(--white-dim); margin-top: 8px; text-align: center; }
 
         /* RESULT */
         .result-section {
-            display: none;
-            margin-top: 22px;
-            padding: 24px;
-            background: rgba(34,197,94,0.04);
-            border: 1px solid rgba(34,197,94,0.15);
-            border-radius: var(--radius-md);
-            text-align: center;
-            animation: fadeInUp 0.4s ease-out;
+            display: none; margin-top: 22px; padding: 24px; background: rgba(34,197,94,0.04);
+            border: 1px solid rgba(34,197,94,0.15); border-radius: var(--radius-md);
+            text-align: center; animation: fadeInUp 0.4s ease-out;
         }
         .result-section.visible { display: block; }
         .result-icon {
-            width: 56px;
-            height: 56px;
-            background: rgba(34,197,94,0.1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--success);
-            margin: 0 auto 16px;
+            width: 56px; height: 56px; background: rgba(34,197,94,0.1); border-radius: 50%;
+            display: flex; align-items: center; justify-content: center; color: var(--success); margin: 0 auto 16px;
         }
         .result-title { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
         .result-desc { font-size: 13px; color: var(--white-mid); margin-bottom: 20px; line-height: 1.6; }
         .result-stats {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 28px;
-            margin-bottom: 20px;
-            padding: 16px;
-            background: rgba(0,0,0,0.25);
-            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center; gap: 28px;
+            margin-bottom: 20px; padding: 16px; background: rgba(0,0,0,0.25); border-radius: var(--radius-sm);
         }
         .result-stat-item { text-align: center; }
         .result-stat-val { font-size: 20px; font-weight: 700; color: var(--red-bright); }
-        .result-stat-lbl {
-            font-size: 10px;
-            color: var(--white-dim);
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            margin-top: 2px;
-        }
-        .result-actions {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            flex-wrap: wrap;
-        }
+        .result-stat-lbl { font-size: 10px; color: var(--white-dim); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px; }
+        .result-actions { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
 
-        /* FEATURES GRID */
+        /* ===== FEATURES: RATA TENGAH + IKON MERAH ===== */
         .features-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 18px;
+            gap: 20px;
         }
-        @media (max-width: 768px) { .features-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .features-grid { grid-template-columns: 1fr; max-width: 400px; margin: 0 auto; } }
         .feature-card {
             background: var(--black-soft);
             border: 1px solid var(--border);
             border-radius: var(--radius-lg);
-            padding: 26px;
+            padding: 32px 24px 28px;
             transition: all var(--normal);
-            position: relative;
-            overflow: hidden;
-        }
-        .feature-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--red), transparent);
-            opacity: 0;
-            transition: opacity var(--normal);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .feature-card:hover {
             border-color: var(--red-border);
             background: var(--black-hover);
-            transform: translateY(-4px);
-            box-shadow: var(--shadow);
+            transform: translateY(-6px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.5), 0 0 30px rgba(220,38,38,0.06);
         }
-        .feature-card:hover::before { opacity: 0.6; }
         .feature-icon {
-            width: 42px;
-            height: 42px;
-            background: var(--red-subtle);
-            border: 1px solid var(--red-border);
-            border-radius: var(--radius-sm);
+            width: 56px;
+            height: 56px;
+            background: var(--red);
+            border-radius: var(--radius-md);
             display: flex;
             align-items: center;
             justify-content: center;
-            color: var(--red-bright);
-            margin-bottom: 16px;
+            color: var(--white);
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px var(--red-glow);
+            transition: all var(--normal);
         }
-        .feature-title { font-size: 15px; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.01em; }
-        .feature-desc { font-size: 13px; color: var(--white-mid); line-height: 1.7; }
+        .feature-card:hover .feature-icon {
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: 0 8px 30px rgba(220,38,38,0.4);
+        }
+        .feature-title {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -0.01em;
+            color: var(--white);
+        }
+        .feature-desc {
+            font-size: 13px;
+            color: var(--white-mid);
+            line-height: 1.7;
+            max-width: 260px;
+        }
 
         /* STEPS */
-        .steps-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 18px;
-            position: relative;
-        }
-        .steps-grid::before {
-            content: '';
-            position: absolute;
-            top: 34px;
-            left: 55px;
-            right: 55px;
-            height: 1px;
-            background: linear-gradient(90deg, var(--border), var(--red), var(--border));
-            opacity: 0.3;
-        }
-        @media (max-width: 768px) { .steps-grid { grid-template-columns: 1fr 1fr; } .steps-grid::before { display: none; } }
+        .steps-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; position: relative; }
+        @media (max-width: 768px) { .steps-grid { grid-template-columns: 1fr 1fr; } }
         @media (max-width: 480px) { .steps-grid { grid-template-columns: 1fr; } }
         .step-card { text-align: center; position: relative; }
         .step-number {
-            width: 68px;
-            height: 68px;
-            margin: 0 auto 14px;
-            background: var(--black-soft);
-            border: 2px solid var(--border);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            font-weight: 800;
-            color: var(--red-bright);
-            position: relative;
-            z-index: 1;
-            transition: all var(--normal);
+            width: 68px; height: 68px; margin: 0 auto 14px; background: var(--black-soft);
+            border: 2px solid var(--border); border-radius: 50%; display: flex; align-items: center;
+            justify-content: center; font-size: 24px; font-weight: 800; color: var(--red-bright);
+            position: relative; z-index: 1; transition: all var(--normal);
         }
-        .step-card:hover .step-number {
-            border-color: var(--red);
-            box-shadow: 0 0 20px var(--red-glow);
-        }
+        .step-card:hover .step-number { border-color: var(--red); box-shadow: 0 0 20px var(--red-glow); }
         .step-title { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
         .step-desc { font-size: 12px; color: var(--white-dim); line-height: 1.6; }
 
-        /* FORMATS */
-        .formats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
-            gap: 10px;
-        }
-        .format-card {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            padding: 12px 14px;
-            background: var(--black-soft);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-md);
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--white-mid);
-            transition: all var(--fast);
-        }
-        .format-card:hover { border-color: var(--red-border); color: var(--white); }
-        .format-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-
         /* FAQ */
-        .faq-list {
-            max-width: 700px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-        .faq-item {
-            background: var(--black-soft);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-md);
-            overflow: hidden;
-            transition: all var(--fast);
-        }
+        .faq-list { max-width: 700px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px; }
+        .faq-item { background: var(--black-soft); border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden; transition: all var(--fast); }
         .faq-item:hover { border-color: var(--border-hover); }
         .faq-question {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 16px 18px;
-            background: none;
-            border: none;
-            color: var(--white);
-            font-size: 14px;
-            font-weight: 600;
-            font-family: 'Inter', sans-serif;
-            cursor: pointer;
-            text-align: left;
-            gap: 16px;
+            width: 100%; display: flex; align-items: center; justify-content: space-between;
+            padding: 16px 18px; background: none; border: none; color: var(--white); font-size: 14px;
+            font-weight: 600; font-family: 'Inter', sans-serif; cursor: pointer; text-align: left; gap: 16px;
         }
-        .faq-question i {
-            transition: transform var(--normal);
-            color: var(--white-dim);
-            flex-shrink: 0;
-        }
+        .faq-question i { transition: transform var(--normal); color: var(--white-dim); flex-shrink: 0; }
         .faq-item.active .faq-question i { transform: rotate(180deg); color: var(--red-bright); }
         .faq-answer { max-height: 0; overflow: hidden; transition: max-height var(--normal), padding var(--normal); }
         .faq-item.active .faq-answer { max-height: 300px; }
         .faq-answer-inner { padding: 0 18px 16px; font-size: 13px; color: var(--white-mid); line-height: 1.8; }
 
+        /* PAGE OVERLAY */
+        .page-overlay {
+            display: none; position: fixed; inset: 0; background: var(--black); z-index: 2000;
+            overflow-y: auto; animation: fadeIn 0.25s ease-out;
+        }
+        .page-overlay.active { display: block; }
+        .page-overlay-inner { max-width: 800px; margin: 0 auto; padding: 100px 24px 60px; }
+        .page-back {
+            display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 500;
+            color: var(--white-mid); background: none; border: none; cursor: pointer;
+            font-family: 'Inter', sans-serif; margin-bottom: 32px; transition: color var(--fast);
+        }
+        .page-back:hover { color: var(--red-bright); }
+        .page-title { font-size: clamp(28px, 5vw, 42px); font-weight: 800; letter-spacing: -0.03em; margin-bottom: 8px; }
+        .page-updated { font-size: 12px; color: var(--white-dim); margin-bottom: 32px; }
+        .page-content { font-size: 15px; color: var(--white-mid); line-height: 1.85; }
+        .page-content h2 { font-size: 20px; font-weight: 700; color: var(--white); margin: 36px 0 12px; letter-spacing: -0.02em; }
+        .page-content h3 { font-size: 16px; font-weight: 600; color: var(--white-soft); margin: 24px 0 8px; }
+        .page-content p { margin-bottom: 16px; }
+        .page-content ul, .page-content ol { margin: 0 0 16px 20px; }
+        .page-content li { margin-bottom: 8px; }
+        .page-content strong { color: var(--white); font-weight: 600; }
+        .page-content a { color: var(--red-bright); text-decoration: none; }
+        .page-content a:hover { text-decoration: underline; }
+        .page-content .contact-card {
+            background: var(--black-soft); border: 1px solid var(--border); border-radius: var(--radius-md);
+            padding: 20px; margin: 16px 0; display: flex; align-items: center; gap: 14px;
+        }
+        .page-content .contact-icon {
+            width: 44px; height: 44px; background: var(--red); border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center; color: var(--white); flex-shrink: 0;
+        }
+        .page-content .contact-label { font-size: 11px; color: var(--white-dim); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 2px; }
+        .page-content .contact-value { font-size: 15px; font-weight: 600; color: var(--white); }
+
         /* FOOTER */
-        .footer {
-            margin-top: 70px;
-            border-top: 1px solid var(--border);
-            background: var(--black-soft);
-        }
-        .footer-inner {
-            max-width: 1120px;
-            margin: 0 auto;
-            padding: 44px 24px 24px;
-        }
-        .footer-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr 1fr;
-            gap: 36px;
-            margin-bottom: 36px;
-        }
+        .footer { margin-top: 70px; border-top: 1px solid var(--border); background: var(--black-soft); }
+        .footer-inner { max-width: 1120px; margin: 0 auto; padding: 44px 24px 24px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 36px; margin-bottom: 36px; }
         @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 24px; } }
         @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
-        .footer-brand-desc {
-            font-size: 13px;
-            color: var(--white-dim);
-            line-height: 1.7;
-            margin-top: 12px;
-            max-width: 280px;
-        }
-        .footer-heading {
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--white-mid);
-            margin-bottom: 14px;
-        }
+        .footer-brand-desc { font-size: 13px; color: var(--white-dim); line-height: 1.7; margin-top: 12px; max-width: 280px; }
+        .footer-heading { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--white-mid); margin-bottom: 14px; }
         .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
-        .footer-links a { font-size: 13px; color: var(--white-dim); text-decoration: none; transition: color var(--fast); }
+        .footer-links a { font-size: 13px; color: var(--white-dim); text-decoration: none; transition: color var(--fast); cursor: pointer; }
         .footer-links a:hover { color: var(--red-bright); }
         .footer-bottom {
-            padding-top: 22px;
-            border-top: 1px solid var(--border);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 12px;
+            padding-top: 22px; border-top: 1px solid var(--border);
+            display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
         }
         .footer-bottom-text { font-size: 12px; color: var(--white-dim); }
         .footer-bottom-text a { color: var(--red-bright); text-decoration: none; }
 
         /* TOAST */
-        .toast-container {
-            position: fixed;
-            top: 84px;
-            right: 24px;
-            z-index: 9999;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
+        .toast-container { position: fixed; top: 84px; right: 24px; z-index: 9999; display: flex; flex-direction: column; gap: 8px; }
         .toast {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 13px 18px;
-            background: var(--black-elevated);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-md);
-            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-            min-width: 260px;
-            max-width: 380px;
-            animation: slideDown 0.3s ease-out;
-            backdrop-filter: blur(12px);
+            display: flex; align-items: center; gap: 12px; padding: 13px 18px;
+            background: var(--black-elevated); border: 1px solid var(--border); border-radius: var(--radius-md);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5); min-width: 260px; max-width: 380px;
+            animation: slideDown 0.3s ease-out; backdrop-filter: blur(12px);
         }
         .toast.toast-exit { animation: fadeIn 0.2s ease-out reverse forwards; }
-        .toast-icon {
-            width: 32px;
-            height: 32px;
-            border-radius: var(--radius-sm);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-        }
+        .toast-icon { width: 32px; height: 32px; border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
         .toast-success .toast-icon { background: rgba(34,197,94,0.15); color: var(--success); }
         .toast-error .toast-icon { background: var(--red-subtle); color: var(--red-bright); }
         .toast-warning .toast-icon { background: rgba(245,158,11,0.15); color: var(--warning); }
@@ -1045,26 +534,13 @@
         .toast-close { background: none; border: none; color: var(--white-dim); cursor: pointer; padding: 4px; transition: color var(--fast); }
         .toast-close:hover { color: var(--white); }
 
-        /* SCROLL TO TOP */
+        /* SCROLL TOP */
         .scroll-top {
-            position: fixed;
-            bottom: 24px;
-            right: 24px;
-            width: 44px;
-            height: 44px;
-            background: var(--red);
-            color: var(--white);
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transform: translateY(20px);
-            transition: all var(--normal);
-            z-index: 100;
-            box-shadow: 0 4px 16px var(--red-glow);
+            position: fixed; bottom: 24px; right: 24px; width: 44px; height: 44px;
+            background: var(--red); color: var(--white); border: none; border-radius: 50%;
+            cursor: pointer; display: flex; align-items: center; justify-content: center;
+            opacity: 0; transform: translateY(20px); transition: all var(--normal);
+            z-index: 100; box-shadow: 0 4px 16px var(--red-glow);
         }
         .scroll-top.visible { opacity: 1; transform: translateY(0); }
         .scroll-top:hover { transform: translateY(-2px); box-shadow: 0 6px 24px var(--red-glow); }
@@ -1072,36 +548,20 @@
         /* HISTORY */
         .history-section { margin-top: 28px; }
         .history-item {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 11px 14px;
-            background: var(--black-card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-sm);
-            margin-bottom: 8px;
-            font-size: 13px;
+            display: flex; align-items: center; gap: 12px; padding: 11px 14px;
+            background: var(--black-card); border: 1px solid var(--border); border-radius: var(--radius-sm);
+            margin-bottom: 8px; font-size: 13px;
         }
         .history-item-icon {
-            width: 30px;
-            height: 30px;
-            background: var(--red-subtle);
-            border-radius: 6px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--red-bright);
-            flex-shrink: 0;
+            width: 30px; height: 30px; background: var(--red-subtle); border-radius: 6px;
+            display: flex; align-items: center; justify-content: center; color: var(--red-bright); flex-shrink: 0;
         }
         .history-item-info { flex: 1; min-width: 0; }
         .history-item-name { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .history-item-meta { font-size: 11px; color: var(--white-dim); margin-top: 1px; }
-        .empty-state { text-align: center; padding: 28px; color: var(--white-dim); font-size: 13px; }
-        .empty-state i { display: block; margin: 0 auto 8px; opacity: 0.4; }
 
         .divider { width: 100%; height: 1px; background: var(--border); margin: 32px 0; }
         .error-shake { animation: shake 0.4s ease; }
-        .hidden { display: none !important; }
     </style>
 </head>
 <body>
@@ -1109,16 +569,17 @@
     <!-- NAVBAR -->
     <nav class="navbar" role="navigation" aria-label="Navigasi utama">
         <div class="navbar-inner">
-            <a href="#" class="logo-group" aria-label="KARYA ABADI.COPAS Beranda">
-                <img src="https://z-cdn-media.chatglm.cn/files/f0bdb776-0220-4d0d-bbba-c8ade88390a8.png?auth_key=1882133467-6cb32756eda248d28eb7bbd9dcbad9ef-0-2b686b0276c78e2cb15f9d67b62ce0c2" alt="Logo KARYA ABADI.COPAS" class="logo-img" width="38" height="38">
-                <span class="logo-text">KARYA ABADI<span>.COPAS</span></span>
+            <a href="#" class="logo-group" aria-label="KARYA ABADI COPAS Beranda" onclick="closeAllPages();window.scrollTo({top:0,behavior:'smooth'});return false;">
+                <img src="https://z-cdn-media.chatglm.cn/files/f0bdb776-0220-4d0d-bbba-c8ade88390a8.png?auth_key=1882133467-6cb32756eda248d28eb7bbd9dcbad9ef-0-2b686b0276c78e2cb15f9d67b62ce0c2" alt="Logo KARYA ABADI COPAS" class="logo-img" width="38" height="38">
+                <span class="logo-text">KARYA ABADI <span>COPAS</span></span>
             </a>
             <div class="nav-links">
                 <a href="#tool" class="nav-link">Tools</a>
                 <a href="#features" class="nav-link">Fitur</a>
                 <a href="#how-it-works" class="nav-link">Cara Pakai</a>
-                <a href="#formats" class="nav-link">Format</a>
                 <a href="#faq" class="nav-link">FAQ</a>
+                <a onclick="openPage('about')" class="nav-link" style="cursor:pointer;">About</a>
+                <a onclick="openPage('contact')" class="nav-link" style="cursor:pointer;">Contact</a>
                 <a href="#tool" class="nav-cta">Mulai Sekarang</a>
             </div>
             <button class="mobile-toggle" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false">
@@ -1130,8 +591,9 @@
         <a href="#tool" class="nav-link" onclick="closeMobileMenu()">Tools</a>
         <a href="#features" class="nav-link" onclick="closeMobileMenu()">Fitur</a>
         <a href="#how-it-works" class="nav-link" onclick="closeMobileMenu()">Cara Pakai</a>
-        <a href="#formats" class="nav-link" onclick="closeMobileMenu()">Format</a>
         <a href="#faq" class="nav-link" onclick="closeMobileMenu()">FAQ</a>
+        <a onclick="openPage('about');closeMobileMenu();" class="nav-link" style="cursor:pointer;">About</a>
+        <a onclick="openPage('contact');closeMobileMenu();" class="nav-link" style="cursor:pointer;">Contact</a>
     </div>
 
     <!-- HERO -->
@@ -1183,14 +645,10 @@
             <h2 class="section-title">Copy Paste File Sekarang</h2>
             <p class="section-desc">Upload file, tentukan jumlah copy, dan download hasilnya dalam format ZIP. Cepat, mudah, dan gratis.</p>
         </div>
-
         <div class="tool-container">
-            <!-- Upload Zone -->
             <div class="upload-zone" id="uploadZone" role="button" tabindex="0" aria-label="Klik atau seret file untuk upload">
                 <input type="file" class="upload-input" id="fileInput" aria-hidden="true">
-                <div class="upload-icon">
-                    <i data-lucide="upload-cloud" style="width:30px;height:30px;"></i>
-                </div>
+                <div class="upload-icon"><i data-lucide="upload-cloud" style="width:30px;height:30px;"></i></div>
                 <div class="upload-title">Seret file ke sini atau klik untuk upload</div>
                 <div class="upload-subtitle">Mendukung semua jenis file, disarankan di bawah 100MB</div>
                 <div class="upload-formats">
@@ -1204,22 +662,14 @@
                     <span class="format-tag">DLL</span>
                 </div>
             </div>
-
-            <!-- File Preview -->
             <div class="file-preview" id="filePreview">
-                <div class="file-preview-icon">
-                    <i data-lucide="file" style="width:22px;height:22px;"></i>
-                </div>
+                <div class="file-preview-icon"><i data-lucide="file" style="width:22px;height:22px;"></i></div>
                 <div class="file-preview-info">
                     <div class="file-preview-name" id="fileName"></div>
                     <div class="file-preview-meta" id="fileMeta"></div>
                 </div>
-                <button class="file-preview-remove" id="removeFile" aria-label="Hapus file">
-                    <i data-lucide="x" style="width:16px;height:16px;"></i>
-                </button>
+                <button class="file-preview-remove" id="removeFile" aria-label="Hapus file"><i data-lucide="x" style="width:16px;height:16px;"></i></button>
             </div>
-
-            <!-- Controls -->
             <div class="controls-row" id="controlsRow">
                 <div class="control-group">
                     <label for="copyCount">Jumlah Copy</label>
@@ -1250,8 +700,6 @@
                     </button>
                 </div>
             </div>
-
-            <!-- Progress -->
             <div class="progress-section" id="progressSection">
                 <div class="progress-header">
                     <span class="progress-label" id="progressLabel">Membuat copy file...</span>
@@ -1262,12 +710,8 @@
                 </div>
                 <div class="progress-detail" id="progressDetail">Memproses 0 dari 0 file...</div>
             </div>
-
-            <!-- Result -->
             <div class="result-section" id="resultSection">
-                <div class="result-icon">
-                    <i data-lucide="check-circle" style="width:28px;height:28px;"></i>
-                </div>
+                <div class="result-icon"><i data-lucide="check-circle" style="width:28px;height:28px;"></i></div>
                 <div class="result-title">ZIP Berhasil Dibuat!</div>
                 <div class="result-desc" id="resultDesc">File ZIP siap didownload</div>
                 <div class="result-stats">
@@ -1285,18 +729,10 @@
                     </div>
                 </div>
                 <div class="result-actions">
-                    <button class="btn btn-primary" id="downloadBtn">
-                        <i data-lucide="download" style="width:16px;height:16px;"></i>
-                        Download ZIP
-                    </button>
-                    <button class="btn btn-secondary" id="resetBtn">
-                        <i data-lucide="refresh-cw" style="width:16px;height:16px;"></i>
-                        Copy Lagi
-                    </button>
+                    <button class="btn btn-primary" id="downloadBtn"><i data-lucide="download" style="width:16px;height:16px;"></i> Download ZIP</button>
+                    <button class="btn btn-secondary" id="resetBtn"><i data-lucide="refresh-cw" style="width:16px;height:16px;"></i> Copy Lagi</button>
                 </div>
             </div>
-
-            <!-- History -->
             <div class="history-section" id="historySection" style="display:none;">
                 <div class="divider"></div>
                 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;">
@@ -1311,41 +747,41 @@
         </div>
     </section>
 
-    <!-- FEATURES -->
+    <!-- ===== FEATURES: RATA TENGAH + IKON MERAH ===== -->
     <section class="section" id="features" aria-label="Fitur">
         <div class="section-header">
             <div class="section-tag">Fitur Unggulan</div>
-            <h2 class="section-title">Mengapa KARYA ABADI.COPAS?</h2>
+            <h2 class="section-title">Mengapa KARYA ABADI COPAS?</h2>
             <p class="section-desc">Tools yang dirancang untuk efisiensi dan kemudahan pengguna.</p>
         </div>
         <div class="features-grid">
             <article class="feature-card">
-                <div class="feature-icon"><i data-lucide="shield-check" style="width:20px;height:20px;"></i></div>
+                <div class="feature-icon"><i data-lucide="shield-check" style="width:24px;height:24px;"></i></div>
                 <h3 class="feature-title">100% Private &amp; Aman</h3>
                 <p class="feature-desc">Semua proses dilakukan langsung di browser Anda. Tidak ada file yang diunggah ke server manapun.</p>
             </article>
             <article class="feature-card">
-                <div class="feature-icon"><i data-lucide="zap" style="width:20px;height:20px;"></i></div>
+                <div class="feature-icon"><i data-lucide="zap" style="width:24px;height:24px;"></i></div>
                 <h3 class="feature-title">Proses Super Cepat</h3>
                 <p class="feature-desc">Memanfaatkan teknologi modern browser untuk duplikasi file dalam hitungan detik.</p>
             </article>
             <article class="feature-card">
-                <div class="feature-icon"><i data-lucide="archive" style="width:20px;height:20px;"></i></div>
+                <div class="feature-icon"><i data-lucide="archive" style="width:24px;height:24px;"></i></div>
                 <h3 class="feature-title">Download Format ZIP</h3>
                 <p class="feature-desc">Hasil copy langsung dikemas dalam file ZIP yang siap download dan digunakan.</p>
             </article>
             <article class="feature-card">
-                <div class="feature-icon"><i data-lucide="sliders-horizontal" style="width:20px;height:20px;"></i></div>
+                <div class="feature-icon"><i data-lucide="sliders-horizontal" style="width:24px;height:24px;"></i></div>
                 <h3 class="feature-title">Jumlah Copy Fleksibel</h3>
                 <p class="feature-desc">Tentukan jumlah copy dari 1 hingga 10.000 file sesuai kebutuhan Anda.</p>
             </article>
             <article class="feature-card">
-                <div class="feature-icon"><i data-lucide="file-type" style="width:20px;height:20px;"></i></div>
+                <div class="feature-icon"><i data-lucide="file-type" style="width:24px;height:24px;"></i></div>
                 <h3 class="feature-title">Semua Format File</h3>
                 <p class="feature-desc">Mendukung PDF, gambar, video, dokumen, audio, dan semua jenis file lainnya.</p>
             </article>
             <article class="feature-card">
-                <div class="feature-icon"><i data-lucide="smartphone" style="width:20px;height:20px;"></i></div>
+                <div class="feature-icon"><i data-lucide="smartphone" style="width:24px;height:24px;"></i></div>
                 <h3 class="feature-title">Responsif di Semua Device</h3>
                 <p class="feature-desc">Tampilan optimal di desktop, tablet, maupun smartphone. Gunakan kapan saja, di mana saja.</p>
             </article>
@@ -1383,33 +819,6 @@
         </div>
     </section>
 
-    <!-- FORMATS -->
-    <section class="section" id="formats" aria-label="Format file yang didukung">
-        <div class="section-header">
-            <div class="section-tag">Format Didukung</div>
-            <h2 class="section-title">Semua Jenis File</h2>
-            <p class="section-desc">Tidak ada batasan format. Berikut beberapa format populer yang sering digunakan.</p>
-        </div>
-        <div class="formats-grid">
-            <div class="format-card"><span class="format-dot" style="background:#DC2626;"></span> PDF</div>
-            <div class="format-card"><span class="format-dot" style="background:#FFFFFF;"></span> DOCX</div>
-            <div class="format-card"><span class="format-dot" style="background:#22C55E;"></span> XLSX</div>
-            <div class="format-card"><span class="format-dot" style="background:#F59E0B;"></span> PPTX</div>
-            <div class="format-card"><span class="format-dot" style="background:#EC4899;"></span> JPG / JPEG</div>
-            <div class="format-card"><span class="format-dot" style="background:#8B5CF6;"></span> PNG</div>
-            <div class="format-card"><span class="format-dot" style="background:#06B6D4;"></span> GIF</div>
-            <div class="format-card"><span class="format-dot" style="background:#F97316;"></span> SVG</div>
-            <div class="format-card"><span class="format-dot" style="background:#EF4444;"></span> MP4</div>
-            <div class="format-card"><span class="format-dot" style="background:#3B82F6;"></span> AVI</div>
-            <div class="format-card"><span class="format-dot" style="background:#22C55E;"></span> MKV</div>
-            <div class="format-card"><span class="format-dot" style="background:#F59E0B;"></span> MP3</div>
-            <div class="format-card"><span class="format-dot" style="background:#EC4899;"></span> WAV</div>
-            <div class="format-card"><span class="format-dot" style="background:#8B5CF6;"></span> ZIP / RAR</div>
-            <div class="format-card"><span class="format-dot" style="background:#FFFFFF;"></span> TXT</div>
-            <div class="format-card"><span class="format-dot" style="background:#DC2626;"></span> Lainnya...</div>
-        </div>
-    </section>
-
     <!-- FAQ -->
     <section class="section" id="faq" aria-label="Pertanyaan yang sering diajukan">
         <div class="section-header">
@@ -1419,67 +828,28 @@
         </div>
         <div class="faq-list">
             <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    Apa itu KARYA ABADI.COPAS?
-                    <i data-lucide="chevron-down" style="width:18px;height:18px;"></i>
-                </button>
-                <div class="faq-answer">
-                    <div class="faq-answer-inner">KARYA ABADI.COPAS adalah tools online gratis untuk menduplikasi (copy-paste) file dalam jumlah tertentu. Anda cukup upload file, tentukan jumlah salinan yang diinginkan, lalu download hasilnya dalam format ZIP. Semua proses dilakukan di browser tanpa mengirim file ke server.</div>
-                </div>
+                <button class="faq-question" aria-expanded="false">Apa itu KARYA ABADI COPAS?<i data-lucide="chevron-down" style="width:18px;height:18px;"></i></button>
+                <div class="faq-answer"><div class="faq-answer-inner">KARYA ABADI COPAS adalah tools online gratis untuk menduplikasi (copy-paste) file dalam jumlah tertentu. Anda cukup upload file, tentukan jumlah salinan yang diinginkan, lalu download hasilnya dalam format ZIP. Semua proses dilakukan di browser tanpa mengirim file ke server.</div></div>
             </div>
             <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    Apakah file saya aman?
-                    <i data-lucide="chevron-down" style="width:18px;height:18px;"></i>
-                </button>
-                <div class="faq-answer">
-                    <div class="faq-answer-inner">Sangat aman! Seluruh proses duplikasi dan pembuatan ZIP dilakukan sepenuhnya di browser Anda menggunakan JavaScript. Tidak ada satupun file yang diunggah ke server kami. Setelah Anda menutup halaman, semua data akan hilang dari memori.</div>
-                </div>
+                <button class="faq-question" aria-expanded="false">Apakah file saya aman?<i data-lucide="chevron-down" style="width:18px;height:18px;"></i></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Sangat aman! Seluruh proses duplikasi dan pembuatan ZIP dilakukan sepenuhnya di browser Anda menggunakan JavaScript. Tidak ada satupun file yang diunggah ke server kami. Setelah Anda menutup halaman, semua data akan hilang dari memori.</div></div>
             </div>
             <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    Format file apa saja yang didukung?
-                    <i data-lucide="chevron-down" style="width:18px;height:18px;"></i>
-                </button>
-                <div class="faq-answer">
-                    <div class="faq-answer-inner">Semua format file didukung tanpa terkecuali. PDF, gambar (JPG, PNG, GIF, SVG), video (MP4, AVI, MKV), audio (MP3, WAV), dokumen (DOCX, XLSX, PPTX), arsip (ZIP, RAR), dan format lainnya. Tools ini bekerja pada level binary file.</div>
-                </div>
+                <button class="faq-question" aria-expanded="false">Format file apa saja yang didukung?<i data-lucide="chevron-down" style="width:18px;height:18px;"></i></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Semua format file didukung tanpa terkecuali. PDF, gambar (JPG, PNG, GIF, SVG), video (MP4, AVI, MKV), audio (MP3, WAV), dokumen (DOCX, XLSX, PPTX), arsip (ZIP, RAR), dan format lainnya. Tools ini bekerja pada level binary file.</div></div>
             </div>
             <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    Berapa jumlah maksimal copy yang bisa dibuat?
-                    <i data-lucide="chevron-down" style="width:18px;height:18px;"></i>
-                </button>
-                <div class="faq-answer">
-                    <div class="faq-answer-inner">Anda bisa membuat hingga 10.000 salinan file dalam satu kali proses. Namun, perlu diingat bahwa jumlah salinan yang sangat besar dengan file berukuran besar bisa membebani memori browser. Disarankan untuk file besar, gunakan jumlah copy yang wajar (di bawah 500).</div>
-                </div>
+                <button class="faq-question" aria-expanded="false">Berapa jumlah maksimal copy yang bisa dibuat?<i data-lucide="chevron-down" style="width:18px;height:18px;"></i></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Anda bisa membuat hingga 10.000 salinan file dalam satu kali proses. Namun, perlu diingat bahwa jumlah salinan yang sangat besar dengan file berukuran besar bisa membebani memori browser. Disarankan untuk file besar, gunakan jumlah copy yang wajar (di bawah 500).</div></div>
             </div>
             <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    Apakah ada batasan ukuran file?
-                    <i data-lucide="chevron-down" style="width:18px;height:18px;"></i>
-                </button>
-                <div class="faq-answer">
-                    <div class="faq-answer-inner">Tidak ada batasan teknis, namun kami menyarankan file di bawah 100MB untuk pengalaman terbaik. Karena proses dilakukan di browser, ukuran file dan jumlah copy sangat bergantung pada RAM dan kapasitas perangkat Anda.</div>
-                </div>
+                <button class="faq-question" aria-expanded="false">Apakah ada batasan ukuran file?<i data-lucide="chevron-down" style="width:18px;height:18px;"></i></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Tidak ada batasan teknis, namun kami menyarankan file di bawah 100MB untuk pengalaman terbaik. Karena proses dilakukan di browser, ukuran file dan jumlah copy sangat bergantung pada RAM dan kapasitas perangkat Anda.</div></div>
             </div>
             <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    Bagaimana cara penamaan file hasil copy?
-                    <i data-lucide="chevron-down" style="width:18px;height:18px;"></i>
-                </button>
-                <div class="faq-answer">
-                    <div class="faq-answer-inner">File asli akan diberi nama sesuai nama aslinya. Sedangkan salinan akan diberi nama "namafile_copy_1.ext", "namafile_copy_2.ext", dan seterusnya hingga jumlah yang ditentukan. Semua file dikemas dalam satu folder di dalam file ZIP.</div>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    Apakah tools ini gratis?
-                    <i data-lucide="chevron-down" style="width:18px;height:18px;"></i>
-                </button>
-                <div class="faq-answer">
-                    <div class="faq-answer-inner">Ya, KARYA ABADI.COPAS 100% gratis tanpa biaya tersembunyi. Tidak perlu registrasi, tidak ada iklan mengganggu, dan tidak ada batasan penggunaan. Cukup buka website dan langsung gunakan.</div>
-                </div>
+                <button class="faq-question" aria-expanded="false">Apakah tools ini gratis?<i data-lucide="chevron-down" style="width:18px;height:18px;"></i></button>
+                <div class="faq-answer"><div class="faq-answer-inner">Ya, KARYA ABADI COPAS 100% gratis tanpa biaya tersembunyi. Tidak perlu registrasi, tidak ada iklan mengganggu, dan tidak ada batasan penggunaan. Cukup buka website dan langsung gunakan.</div></div>
             </div>
         </div>
     </section>
@@ -1489,9 +859,9 @@
         <div class="footer-inner">
             <div class="footer-grid">
                 <div>
-                    <a href="#" class="logo-group" style="margin-bottom:4px;">
+                    <a href="#" class="logo-group" style="margin-bottom:4px;" onclick="closeAllPages();window.scrollTo({top:0,behavior:'smooth'});return false;">
                         <img src="https://z-cdn-media.chatglm.cn/files/f0bdb776-0220-4d0d-bbba-c8ade88390a8.png?auth_key=1882133467-6cb32756eda248d28eb7bbd9dcbad9ef-0-2b686b0276c78e2cb15f9d67b62ce0c2" alt="Logo" class="logo-img" width="34" height="34">
-                        <span class="logo-text" style="font-size:15px;">KARYA ABADI<span>.COPAS</span></span>
+                        <span class="logo-text" style="font-size:15px;">KARYA ABADI <span>COPAS</span></span>
                     </a>
                     <p class="footer-brand-desc">Tools copy paste file online gratis. Duplikasi file dalam jumlah banyak dan download format ZIP dengan mudah dan aman.</p>
                 </div>
@@ -1505,27 +875,217 @@
                     </ul>
                 </div>
                 <div>
-                    <h4 class="footer-heading">Dukungan</h4>
+                    <h4 class="footer-heading">Informasi</h4>
                     <ul class="footer-links">
+                        <li><a onclick="openPage('about')">About</a></li>
+                        <li><a onclick="openPage('contact')">Contact</a></li>
                         <li><a href="mailto:karyaabadi24434@gmail.com">Email Kami</a></li>
-                        <li><a href="#faq">Pusat Bantuan</a></li>
-                        <li><a href="#formats">Format File</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="footer-heading">Legal</h4>
                     <ul class="footer-links">
-                        <li><a href="#" onclick="showToast('info','Kebijakan Privasi','Halaman kebijakan privasi sedang dalam pengembangan.');return false;">Kebijakan Privasi</a></li>
-                        <li><a href="#" onclick="showToast('info','Syarat &amp; Ketentuan','Halaman syarat &amp; ketentuan sedang dalam pengembangan.');return false;">Syarat &amp; Ketentuan</a></li>
+                        <li><a onclick="openPage('privacy')">Privacy Policy</a></li>
+                        <li><a onclick="openPage('terms')">Terms of Service</a></li>
+                        <li><a onclick="openPage('disclaimer')">Disclaimer</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <div class="footer-bottom-text">&copy; 2025 <a href="#">KARYA ABADI.COPAS</a>. Semua hak dilindungi.</div>
+                <div class="footer-bottom-text">&copy; 2025 <a href="#" onclick="closeAllPages();window.scrollTo({top:0,behavior:'smooth'});return false;">KARYA ABADI COPAS</a>. Semua hak dilindungi.</div>
                 <div class="footer-bottom-text">Dibuat dengan <span style="color:var(--red-bright);">&#10084;</span> <a href="mailto:karyaabadi24434@gmail.com">karyaabadi24434@gmail.com</a></div>
             </div>
         </div>
     </footer>
+
+    <!-- ============ PAGE OVERLAYS ============ -->
+
+    <!-- ABOUT -->
+    <div class="page-overlay" id="page-about">
+        <div class="page-overlay-inner">
+            <button class="page-back" onclick="closeAllPages()"><i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Kembali ke Beranda</button>
+            <h1 class="page-title">About</h1>
+            <p class="page-updated">Terakhir diperbarui: 1 Januari 2025</p>
+            <div class="page-content">
+                <h2>Tentang KARYA ABADI COPAS</h2>
+                <p>KARYA ABADI COPAS adalah platform tools online gratis yang dirancang khusus untuk membantu pengguna menduplikasi file dalam jumlah besar dengan mudah dan cepat. Kami memahami bahwa dalam banyak situasi, Anda membutuhkan salinan file yang sama dalam jumlah tertentu, baik untuk keperluan distribusi, backup, pengujian, atau kebutuhan lainnya.</p>
+                <p>Dengan KARYA ABADI COPAS, proses yang biasanya memakan waktu lama jika dilakukan manual kini dapat diselesaikan dalam hitungan detik. Cukup upload file, tentukan jumlah salinan, dan download hasilnya dalam format ZIP yang rapi dan terorganisir.</p>
+                <h2>Visi Kami</h2>
+                <p>Menjadi platform tools utilitas file terdepan yang menyediakan solusi sederhana, cepat, dan aman untuk kebutuhan pengelolaan file sehari-hari tanpa memerlukan instalasi software atau keahlian teknis.</p>
+                <h2>Misi Kami</h2>
+                <ul>
+                    <li>Menyediakan tools yang benar-benar gratis tanpa biaya tersembunyi atau batasan penggunaan yang mengganggu.</li>
+                    <li>Menjaga privasi dan keamanan data pengguna dengan memproses semua file secara lokal di browser.</li>
+                    <li>Menghadirkan pengalaman pengguna yang intuitif dan menyenangkan dengan desain yang bersih dan modern.</li>
+                    <li>Terus berinovasi dengan menambahkan fitur-fitur baru yang berguna bagi pengguna.</li>
+                </ul>
+                <h2>Teknologi yang Digunakan</h2>
+                <p>KARYA ABADI COPAS dibangun menggunakan teknologi web modern:</p>
+                <ul>
+                    <li><strong>JavaScript Murni</strong> untuk logika proses duplikasi file tanpa framework berat.</li>
+                    <li><strong>JSZip</strong> sebagai library pembuatan file ZIP langsung di browser.</li>
+                    <li><strong>FileSaver.js</strong> untuk memfasilitasi download file ke perangkat pengguna.</li>
+                    <li><strong>Inter Font</strong> dari Google Fonts untuk tipografi yang jelas dan mudah dibaca.</li>
+                    <li><strong>Lucide Icons</strong> untuk ikon yang konsisten dan modern.</li>
+                </ul>
+                <h2>Keamanan Data</h2>
+                <p>Kami menjamin bahwa tidak ada satu pun file yang Anda upload akan dikirim ke server manapun. Seluruh proses berjalan sepenuhnya di dalam browser Anda menggunakan teknologi File API dan ArrayBuffer. Begitu Anda menutup halaman atau menyelesaikan proses, semua data file akan dibersihkan dari memori browser secara otomatis.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="page-overlay" id="page-contact">
+        <div class="page-overlay-inner">
+            <button class="page-back" onclick="closeAllPages()"><i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Kembali ke Beranda</button>
+            <h1 class="page-title">Contact</h1>
+            <p class="page-updated">Terakhir diperbarui: 1 Januari 2025</p>
+            <div class="page-content">
+                <h2>Hubungi Kami</h2>
+                <p>Kami selalu senang mendengar dari Anda. Jika Anda memiliki pertanyaan, saran, masukan, atau ingin melaporkan masalah terkait layanan KARYA ABADI COPAS, jangan ragu untuk menghubungi kami.</p>
+                <div class="contact-card">
+                    <div class="contact-icon"><i data-lucide="mail" style="width:20px;height:20px;"></i></div>
+                    <div>
+                        <div class="contact-label">Email Utama</div>
+                        <div class="contact-value"><a href="mailto:karyaabadi24434@gmail.com">karyaabadi24434@gmail.com</a></div>
+                    </div>
+                </div>
+                <h2>Jam Operasional</h2>
+                <p>Kami beroperasi secara online 24 jam sehari, 7 hari seminggu. Namun, respons email mungkin memerlukan waktu 1x24 jam kerja pada hari biasa, dan lebih lama pada hari libur nasional.</p>
+                <h2>Apa yang Bisa Kami Bantu?</h2>
+                <ul>
+                    <li>Pertanyaan umum tentang cara menggunakan tools</li>
+                    <li>Laporan bug atau masukan teknis yang Anda temui</li>
+                    <li>Saran fitur baru yang ingin Anda lihat di platform kami</li>
+                    <li>Kolaborasi atau kemitraan bisnis</li>
+                    <li>Pertanyaan terkait keamanan dan privasi data</li>
+                </ul>
+                <h2>Tips Sebelum Menghubungi</h2>
+                <p>Sebelum mengirim pesan, kami sarankan untuk:</p>
+                <ol>
+                    <li>Membaca halaman FAQ terlebih dahulu, kemungkinan jawaban Anda sudah tersedia di sana.</li>
+                    <li>Memastikan browser Anda dalam versi terbaru untuk menghindari masalah kompatibilitas.</li>
+                    <li>Mencoba refresh halaman atau gunakan browser lain jika mengalami masalah teknis.</li>
+                    <li>Mencatat detail masalah seperti jenis file, jumlah copy, dan pesan error yang muncul.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRIVACY POLICY -->
+    <div class="page-overlay" id="page-privacy">
+        <div class="page-overlay-inner">
+            <button class="page-back" onclick="closeAllPages()"><i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Kembali ke Beranda</button>
+            <h1 class="page-title">Privacy Policy</h1>
+            <p class="page-updated">Terakhir diperbarui: 1 Januari 2025</p>
+            <div class="page-content">
+                <h2>1. Pendahuluan</h2>
+                <p>Kebijakan Privasi ini menjelaskan bagaimana KARYA ABADI COPAS menangani informasi dan data Anda saat menggunakan layanan kami di website karyaabadicopas.com. Dengan menggunakan layanan kami, Anda menyetujui praktik yang dijelaskan dalam kebijakan ini.</p>
+                <h2>2. Data yang Kami Kumpulkan</h2>
+                <h3>2.1 Data File</h3>
+                <p>Kami <strong>tidak mengumpulkan, menyimpan, atau mengirimkan</strong> file yang Anda upload ke server manapun. Seluruh proses duplikasi file dilakukan sepenuhnya di browser Anda menggunakan JavaScript. File hanya ada dalam memori sementara browser dan akan dihapus secara otomatis setelah proses selesai atau halaman ditutup.</p>
+                <h3>2.2 Data Lokal (LocalStorage)</h3>
+                <p>Kami menyimpan beberapa data kecil di localStorage browser Anda, yaitu:</p>
+                <ul>
+                    <li><strong>Riwayat proses</strong> (nama file, jumlah copy, ukuran ZIP, waktu proses) maksimal 10 entri terakhir.</li>
+                    <li><strong>Statistik penggunaan</strong> (jumlah file diproses, total copy, jumlah ZIP didownload).</li>
+                </ul>
+                <p>Data ini hanya tersimpan di perangkat Anda dan tidak dapat diakses oleh pihak lain. Anda dapat menghapusnya kapan saja melalui fitur "Hapus Riwayat" di website atau melalui pengaturan browser Anda.</p>
+                <h3>2.3 Data Analytics</h3>
+                <p>Saat ini kami <strong>tidak menggunakan</strong> layanan analytics pihak ketiga seperti Google Analytics. Kami tidak melacak perilaku browsing, alamat IP, lokasi geografis, atau informasi perangkat Anda.</p>
+                <h2>3. Cookie</h2>
+                <p>KARYA ABADI COPAS <strong>tidak menggunakan cookie</strong> sama sekali. Kami tidak menyetel cookie pelacakan, cookie iklan, atau cookie fungsional apapun.</p>
+                <h2>4. Berbagi Data dengan Pihak Ketiga</h2>
+                <p>Kami <strong>tidak berbagi, menjual, atau menyewakan</strong> data Anda kepada pihak ketiga dalam bentuk apapun karena kami tidak mengumpulkan data pribadi yang dapat diidentifikasi.</p>
+                <h2>5. Keamanan</h2>
+                <p>Karena semua pemrosesan file dilakukan secara lokal di browser Anda, risiko kebocoran data melalui transmisi jaringan tidak ada. Kami tetap merekomendasikan Anda untuk:</p>
+                <ul>
+                    <li>Menggunakan browser yang terupdate dengan patch keamanan terbaru.</li>
+                    <li>Menghindari penggunaan tools ini di komputer publik atau perangkat yang tidak aman.</li>
+                    <li>Menutup halaman setelah selesai menggunakan tools jika menggunakan perangkat bersama.</li>
+                </ul>
+                <h2>6. Hak Anda</h2>
+                <p>Anda memiliki hak penuh atas data yang tersimpan di browser Anda. Anda dapat menghapus riwayat dan statistik melalui fitur yang tersedia di website atau dengan membersihkan data browsing melalui pengaturan browser.</p>
+                <h2>7. Perubahan Kebijakan</h2>
+                <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan akan dipublikasikan di halaman ini dengan tanggal pembaruan terbaru.</p>
+                <h2>8. Kontak</h2>
+                <p>Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami di <a href="mailto:karyaabadi24434@gmail.com">karyaabadi24434@gmail.com</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- TERMS OF SERVICE -->
+    <div class="page-overlay" id="page-terms">
+        <div class="page-overlay-inner">
+            <button class="page-back" onclick="closeAllPages()"><i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Kembali ke Beranda</button>
+            <h1 class="page-title">Terms of Service</h1>
+            <p class="page-updated">Terakhir diperbarui: 1 Januari 2025</p>
+            <div class="page-content">
+                <h2>1. Penerimaan Ketentuan</h2>
+                <p>Dengan mengakses dan menggunakan website KARYA ABADI COPAS (karyaabadicopas.com), Anda menyatakan bahwa Anda telah membaca, memahami, dan menyetujui untuk terikat oleh Syarat Layanan ini. Jika Anda tidak menyetujui syarat-syarat ini, harap tidak menggunakan layanan kami.</p>
+                <h2>2. Deskripsi Layanan</h2>
+                <p>KARYA ABADI COPAS menyediakan tools online gratis untuk menduplikasi file dalam jumlah tertentu dan mengunduh hasilnya dalam format arsip ZIP. Layanan ini berjalan sepenuhnya di browser pengguna tanpa memerlukan registrasi akun.</p>
+                <h2>3. Penggunaan yang Diperbolehkan</h2>
+                <ul>
+                    <li>Menduplikasi file pribadi Anda untuk keperluan yang sah.</li>
+                    <li>Membuat salinan backup file dalam jumlah tertentu.</li>
+                    <li>Mempersiapkan file untuk distribusi atau pengujian.</li>
+                    <li>Kegiatan lainnya yang sesuai dengan hukum yang berlaku.</li>
+                </ul>
+                <h2>4. Penggunaan yang Dilarang</h2>
+                <ul>
+                    <li>Menduplikasi file yang bukan milik Anda tanpa izin dari pemilik hak cipta.</li>
+                    <li>Melakukan kegiatan yang melanggar hukum negara Republik Indonesia atau hukum internasional.</li>
+                    <li>Menggunakan tools untuk tujuan spam, penipuan, atau aktivitas berbahaya lainnya.</li>
+                    <li>Mencoba mengeksploitasi kerentanan keamanan pada platform kami.</li>
+                    <li>Melakukan reverse engineering, dekompilasi, atau modifikasi kode platform.</li>
+                </ul>
+                <h2>5. Batasan Layanan</h2>
+                <p>Layanan disediakan "sebagaimana adanya" tanpa jaminan apapun. Kami tidak menjamin bahwa layanan akan selalu tersedia tanpa gangguan, proses duplikasi akan selalu berhasil tanpa error, atau file hasil duplikasi identik 100% pada kondisi tertentu.</p>
+                <h2>6. Batasan Tanggung Jawab</h2>
+                <p>KARYA ABADI COPAS dan seluruh kontributurnya tidak bertanggung jawab atas kerugian langsung, tidak langsung, insidental, khusus, atau konsekuensial yang timbul dari penggunaan atau ketidakmampuan penggunaan layanan ini.</p>
+                <h2>7. Perubahan Layanan</h2>
+                <p>Kami berhak untuk mengubah, memodifikasi, menangguhkan, atau menghentikan layanan atau bagian apapun dari layanan kapan saja tanpa pemberitahuan sebelumnya.</p>
+                <h2>8. Hukum yang Berlaku</h2>
+                <p>Syarat Layanan ini diatur oleh dan ditafsirkan sesuai dengan hukum negara Republik Indonesia. Setiap sengketa yang timbul akan diselesaikan melalui musyawarah terlebih dahulu, dan jika tidak tercapai kesepakatan, akan diselesaikan melalui pengadilan yang berwenang di Indonesia.</p>
+                <h2>9. Kontak</h2>
+                <p>Pertanyaan mengenai Syarat Layanan ini dapat disampaikan ke <a href="mailto:karyaabadi24434@gmail.com">karyaabadi24434@gmail.com</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- DISCLAIMER -->
+    <div class="page-overlay" id="page-disclaimer">
+        <div class="page-overlay-inner">
+            <button class="page-back" onclick="closeAllPages()"><i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Kembali ke Beranda</button>
+            <h1 class="page-title">Disclaimer</h1>
+            <p class="page-updated">Terakhir diperbarui: 1 Januari 2025</p>
+            <div class="page-content">
+                <h2>1. Penolakan Umum</h2>
+                <p>Informasi yang disediakan di website KARYA ABADI COPAS (karyaabadicopas.com) ditujukan untuk tujuan informasi umum. Meskipun kami berusaha menjaga keakuratan informasi, kami tidak memberikan jaminan, baik tersurat maupun tersirat, mengenai kelengkapan, keakuratan, keandalan, ketersediaan, atau kesesuaian informasi untuk tujuan apapun.</p>
+                <h2>2. Penggunaan Tools</h2>
+                <p>Tools duplikasi file yang disediakan di website ini berjalan sepenuhnya di browser pengguna. Kami tidak bertanggung jawab atas:</p>
+                <ul>
+                    <li>Kegagalan proses duplikasi yang disebabkan oleh keterbatasan perangkat keras atau perangkat lunak pengguna.</li>
+                    <li>Kerusakan file yang terjadi selama proses upload, duplikasi, atau download.</li>
+                    <li>Kehilangan data akibat penutupan browser sebelum proses download selesai.</li>
+                    <li>Penggunaan berlebihan yang menyebabkan crash atau freeze pada browser pengguna.</li>
+                </ul>
+                <h2>3. Hak Cipta</h2>
+                <p>Pengguna bertanggung jawab penuh atas file yang mereka duplikasi menggunakan tools kami. Kami tidak memantau, menyimpan, atau memiliki akses terhadap file yang diproses. Pengguna harus memastikan bahwa mereka memiliki hak yang sah untuk menduplikasi file tersebut sesuai dengan hukum hak cipta yang berlaku.</p>
+                <h2>4. Tautan Pihak Ketiga</h2>
+                <p>Website ini mungkin berisi tautan ke website pihak ketiga. Tautan tersebut disediakan untuk kenyamanan pengguna. Kami tidak memiliki kendali atas konten, kebijakan privasi, atau praktik website pihak ketiga dan tidak bertanggung jawab atas kerugian yang timbul dari penggunaan website tersebut.</p>
+                <h2>5. Ketersediaan Layanan</h2>
+                <p>Kami tidak menjamin bahwa website ini akan selalu tersedia, bebas dari error, atau berfungsi tanpa gangguan. Ketersediaan layanan dapat dipengaruhi oleh faktor-faktor di luar kendali kami.</p>
+                <h2>6. Batasan Tanggung Jawab</h2>
+                <p>Dalam batas maksimum yang diizinkan oleh hukum yang berlaku, KARYA ABADI COPAS tidak bertanggung jawab atas kerugian apapun yang timbul dari penggunaan atau ketidakmampuan penggunaan layanan ini.</p>
+                <h2>7. Perubahan Disclaimer</h2>
+                <p>Kami berhak untuk memperbarui atau mengubah disclaimer ini kapan saja tanpa pemberitahuan sebelumnya. Perubahan akan berlaku segera setelah dipublikasikan di halaman ini.</p>
+                <h2>8. Kontak</h2>
+                <p>Jika Anda memiliki pertanyaan mengenai disclaimer ini, silakan hubungi kami di <a href="mailto:karyaabadi24434@gmail.com">karyaabadi24434@gmail.com</a>.</p>
+            </div>
+        </div>
+    </div>
 
     <!-- SCROLL TO TOP -->
     <button class="scroll-top" id="scrollTopBtn" aria-label="Kembali ke atas">
@@ -1538,14 +1098,12 @@
     <script>
         lucide.createIcons();
 
-        // STATE
         let uploadedFile = null;
         let generatedBlob = null;
         let history = JSON.parse(localStorage.getItem('copas_history') || '[]');
         let stats = JSON.parse(localStorage.getItem('copas_stats') || '{"files":0,"copies":0,"zips":0}');
         let isProcessing = false;
 
-        // DOM
         const uploadZone = document.getElementById('uploadZone');
         const fileInput = document.getElementById('fileInput');
         const filePreview = document.getElementById('filePreview');
@@ -1572,7 +1130,6 @@
         const clearHistoryBtn = document.getElementById('clearHistoryBtn');
         const scrollTopBtn = document.getElementById('scrollTopBtn');
 
-        // STATS
         function updateStatsDisplay() {
             document.getElementById('statFiles').textContent = stats.files.toLocaleString('id-ID');
             document.getElementById('statCopies').textContent = stats.copies.toLocaleString('id-ID');
@@ -1580,310 +1137,162 @@
         }
         updateStatsDisplay();
 
-        // UPLOAD
+        function openPage(name) {
+            closeAllPages();
+            const el = document.getElementById('page-' + name);
+            if (el) { el.classList.add('active'); el.scrollTop = 0; document.body.style.overflow = 'hidden'; lucide.createIcons(); }
+        }
+        function closeAllPages() {
+            document.querySelectorAll('.page-overlay').forEach(p => p.classList.remove('active'));
+            document.body.style.overflow = '';
+        }
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAllPages(); });
+
         uploadZone.addEventListener('click', () => fileInput.click());
-        uploadZone.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fileInput.click(); }
-        });
+        uploadZone.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fileInput.click(); } });
         uploadZone.addEventListener('dragover', (e) => { e.preventDefault(); uploadZone.classList.add('dragover'); });
         uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('dragover'));
-        uploadZone.addEventListener('drop', (e) => {
-            e.preventDefault();
-            uploadZone.classList.remove('dragover');
-            if (e.dataTransfer.files.length > 0) handleFile(e.dataTransfer.files[0]);
-        });
-        fileInput.addEventListener('change', (e) => {
-            if (e.target.files.length > 0) handleFile(e.target.files[0]);
-        });
+        uploadZone.addEventListener('drop', (e) => { e.preventDefault(); uploadZone.classList.remove('dragover'); if (e.dataTransfer.files.length > 0) handleFile(e.dataTransfer.files[0]); });
+        fileInput.addEventListener('change', (e) => { if (e.target.files.length > 0) handleFile(e.target.files[0]); });
 
         function handleFile(file) {
             if (isProcessing) return;
             uploadedFile = file;
             fileNameEl.textContent = file.name;
-            const typeStr = file.type || 'Tipe tidak diketahui';
-            fileMetaEl.textContent = formatFileSize(file.size) + '  |  ' + typeStr;
-            filePreview.classList.add('visible');
-            uploadZone.classList.add('has-file');
-            generateBtn.disabled = false;
-            const baseName = file.name.replace(/\.[^/.]+$/, '');
-            zipNameInput.value = baseName + '_copy';
+            fileMetaEl.textContent = formatFileSize(file.size) + '  |  ' + (file.type || 'Tipe tidak diketahui');
+            filePreview.classList.add('visible'); uploadZone.classList.add('has-file'); generateBtn.disabled = false;
+            zipNameInput.value = file.name.replace(/\.[^/.]+$/, '') + '_copy';
             resultSection.classList.remove('visible');
             showToast('success', 'File Terupload', '"' + file.name + '" siap untuk di-copy.');
         }
 
         function removeFile() {
-            uploadedFile = null;
-            generatedBlob = null;
-            fileInput.value = '';
-            filePreview.classList.remove('visible');
-            uploadZone.classList.remove('has-file');
-            generateBtn.disabled = true;
-            resultSection.classList.remove('visible');
-            progressSection.classList.remove('visible');
+            uploadedFile = null; generatedBlob = null; fileInput.value = '';
+            filePreview.classList.remove('visible'); uploadZone.classList.remove('has-file');
+            generateBtn.disabled = true; resultSection.classList.remove('visible'); progressSection.classList.remove('visible');
         }
         removeFileBtn.addEventListener('click', removeFile);
 
-        // NUMBER
-        document.getElementById('decrementBtn').addEventListener('click', () => {
-            let v = parseInt(copyCountInput.value) || 1;
-            if (v > 1) copyCountInput.value = v - 1;
-        });
-        document.getElementById('incrementBtn').addEventListener('click', () => {
-            let v = parseInt(copyCountInput.value) || 1;
-            if (v < 10000) copyCountInput.value = v + 1;
-        });
-        document.querySelectorAll('.quick-copy-btn').forEach(btn => {
-            btn.addEventListener('click', () => { copyCountInput.value = btn.dataset.count; });
-        });
+        document.getElementById('decrementBtn').addEventListener('click', () => { let v = parseInt(copyCountInput.value) || 1; if (v > 1) copyCountInput.value = v - 1; });
+        document.getElementById('incrementBtn').addEventListener('click', () => { let v = parseInt(copyCountInput.value) || 1; if (v < 10000) copyCountInput.value = v + 1; });
+        document.querySelectorAll('.quick-copy-btn').forEach(btn => { btn.addEventListener('click', () => { copyCountInput.value = btn.dataset.count; }); });
 
-        // GENERATE ZIP
         generateBtn.addEventListener('click', async () => {
             if (!uploadedFile || isProcessing) return;
             let copyCount = parseInt(copyCountInput.value);
             if (isNaN(copyCount) || copyCount < 1) {
-                copyCountInput.classList.add('error-shake');
-                setTimeout(() => copyCountInput.classList.remove('error-shake'), 400);
-                showToast('error', 'Jumlah Tidak Valid', 'Masukkan jumlah copy minimal 1.');
-                return;
+                copyCountInput.classList.add('error-shake'); setTimeout(() => copyCountInput.classList.remove('error-shake'), 400);
+                showToast('error', 'Jumlah Tidak Valid', 'Masukkan jumlah copy minimal 1.'); return;
             }
-            if (copyCount > 10000) {
-                copyCount = 10000;
-                copyCountInput.value = 10000;
-                showToast('warning', 'Jumlah Dibatasi', 'Maksimal 10.000 copy per proses.');
-            }
+            if (copyCount > 10000) { copyCount = 10000; copyCountInput.value = 10000; showToast('warning', 'Jumlah Dibatasi', 'Maksimal 10.000 copy per proses.'); }
 
             const zipName = zipNameInput.value.trim() || 'hasil-copy';
-            isProcessing = true;
-            generateBtn.disabled = true;
+            isProcessing = true; generateBtn.disabled = true;
             generateBtn.innerHTML = '<i data-lucide="loader" style="width:16px;height:16px;animation:spin 1s linear infinite;"></i> Memproses...';
             lucide.createIcons();
-
-            resultSection.classList.remove('visible');
-            progressSection.classList.add('visible');
-            progressBar.style.width = '0%';
-            progressPercent.textContent = '0%';
-
+            resultSection.classList.remove('visible'); progressSection.classList.add('visible');
+            progressBar.style.width = '0%'; progressPercent.textContent = '0%';
             const startTime = performance.now();
 
             try {
-                const zip = new JSZip();
-                const folder = zip.folder(zipName);
+                const zip = new JSZip(); const folder = zip.folder(zipName);
                 const fileData = await uploadedFile.arrayBuffer();
                 const baseName = uploadedFile.name.replace(/\.[^/.]+$/, '');
                 const ext = uploadedFile.name.substring(uploadedFile.name.lastIndexOf('.'));
                 const totalFiles = copyCount + 1;
-
                 folder.file(uploadedFile.name, fileData);
-
-                const batchSize = 100;
                 let processed = 0;
-
                 for (let i = 0; i < copyCount; i++) {
-                    folder.file(baseName + '_copy_' + (i + 1) + ext, fileData);
-                    processed++;
-                    if (processed % batchSize === 0 || processed === copyCount) {
+                    folder.file(baseName + '_copy_' + (i + 1) + ext, fileData); processed++;
+                    if (processed % 100 === 0 || processed === copyCount) {
                         const pct = Math.round((processed / totalFiles) * 100);
-                        progressBar.style.width = pct + '%';
-                        progressPercent.textContent = pct + '%';
+                        progressBar.style.width = pct + '%'; progressPercent.textContent = pct + '%';
                         progressDetail.textContent = 'Memproses ' + (processed + 1) + ' dari ' + totalFiles + ' file...';
                         await new Promise(r => setTimeout(r, 0));
                     }
                 }
-
-                progressLabel.textContent = 'Membuat file ZIP...';
-                progressDetail.textContent = 'Mengompresi file...';
-                progressBar.style.width = '95%';
-                progressPercent.textContent = '95%';
+                progressLabel.textContent = 'Membuat file ZIP...'; progressDetail.textContent = 'Mengompresi file...';
+                progressBar.style.width = '95%'; progressPercent.textContent = '95%';
                 await new Promise(r => setTimeout(r, 50));
-
-                generatedBlob = await zip.generateAsync({
-                    type: 'blob',
-                    compression: 'DEFLATE',
-                    compressionOptions: { level: 6 }
-                }, (metadata) => {
-                    const pct = 95 + Math.round(metadata.percent * 0.05);
-                    progressBar.style.width = pct + '%';
-                    progressPercent.textContent = pct + '%';
+                generatedBlob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE', compressionOptions: { level: 6 } }, (m) => {
+                    const pct = 95 + Math.round(m.percent * 0.05); progressBar.style.width = pct + '%'; progressPercent.textContent = pct + '%';
                 });
-
-                progressBar.style.width = '100%';
-                progressPercent.textContent = '100%';
-                progressLabel.textContent = 'Selesai!';
-                progressDetail.textContent = 'File ZIP berhasil dibuat.';
-
-                const endTime = performance.now();
-                const elapsed = ((endTime - startTime) / 1000).toFixed(1);
-
-                resultCopies.textContent = totalFiles.toLocaleString('id-ID');
-                resultSize.textContent = formatFileSize(generatedBlob.size);
-                resultTime.textContent = elapsed + 's';
-                resultDesc.textContent = totalFiles + ' file (' + uploadedFile.name + ') dikemas dalam "' + zipName + '.zip"';
-
-                stats.files++;
-                stats.copies += totalFiles;
-                stats.zips++;
-                localStorage.setItem('copas_stats', JSON.stringify(stats));
-                updateStatsDisplay();
-
-                const historyItem = {
-                    name: uploadedFile.name,
-                    copies: totalFiles,
-                    zipSize: generatedBlob.size,
-                    zipName: zipName + '.zip',
-                    time: new Date().toLocaleString('id-ID')
-                };
-                history.unshift(historyItem);
+                progressBar.style.width = '100%'; progressPercent.textContent = '100%'; progressLabel.textContent = 'Selesai!'; progressDetail.textContent = 'File ZIP berhasil dibuat.';
+                const elapsed = ((performance.now() - startTime) / 1000).toFixed(1);
+                resultCopies.textContent = totalFiles.toLocaleString('id-ID'); resultSize.textContent = formatFileSize(generatedBlob.size);
+                resultTime.textContent = elapsed + 's'; resultDesc.textContent = totalFiles + ' file (' + uploadedFile.name + ') dikemas dalam "' + zipName + '.zip"';
+                stats.files++; stats.copies += totalFiles; stats.zips++;
+                localStorage.setItem('copas_stats', JSON.stringify(stats)); updateStatsDisplay();
+                history.unshift({ name: uploadedFile.name, copies: totalFiles, zipSize: generatedBlob.size, zipName: zipName + '.zip', time: new Date().toLocaleString('id-ID') });
                 if (history.length > 10) history = history.slice(0, 10);
-                localStorage.setItem('copas_history', JSON.stringify(history));
-                renderHistory();
-
-                await new Promise(r => setTimeout(r, 500));
-                progressSection.classList.remove('visible');
-                resultSection.classList.add('visible');
+                localStorage.setItem('copas_history', JSON.stringify(history)); renderHistory();
+                await new Promise(r => setTimeout(r, 500)); progressSection.classList.remove('visible'); resultSection.classList.add('visible');
                 showToast('success', 'Berhasil!', 'ZIP dengan ' + totalFiles + ' file siap didownload.');
-
             } catch (err) {
-                console.error(err);
-                progressSection.classList.remove('visible');
+                console.error(err); progressSection.classList.remove('visible');
                 showToast('error', 'Gagal Membuat ZIP', err.message || 'Terjadi kesalahan saat memproses file.');
             } finally {
-                isProcessing = false;
-                generateBtn.disabled = false;
-                generateBtn.innerHTML = '<i data-lucide="archive" style="width:16px;height:16px;"></i> Generate ZIP';
-                lucide.createIcons();
+                isProcessing = false; generateBtn.disabled = false;
+                generateBtn.innerHTML = '<i data-lucide="archive" style="width:16px;height:16px;"></i> Generate ZIP'; lucide.createIcons();
             }
         });
 
-        // DOWNLOAD
         downloadBtn.addEventListener('click', () => {
-            if (!generatedBlob) return;
-            const zipName = (zipNameInput.value.trim() || 'hasil-copy') + '.zip';
-            saveAs(generatedBlob, zipName);
-            showToast('success', 'Download Dimulai', '"' + zipName + '" sedang didownload.');
+            if (!generatedBlob) return; const n = (zipNameInput.value.trim() || 'hasil-copy') + '.zip';
+            saveAs(generatedBlob, n); showToast('success', 'Download Dimulai', '"' + n + '" sedang didownload.');
         });
 
-        // RESET
         resetBtn.addEventListener('click', () => {
-            removeFile();
-            copyCountInput.value = 5;
-            zipNameInput.value = 'hasil-copy';
-            resultSection.classList.remove('visible');
-            progressSection.classList.remove('visible');
+            removeFile(); copyCountInput.value = 5; zipNameInput.value = 'hasil-copy';
+            resultSection.classList.remove('visible'); progressSection.classList.remove('visible');
             window.scrollTo({ top: document.getElementById('tool').offsetTop - 80, behavior: 'smooth' });
             showToast('info', 'Reset Berhasil', 'Siap untuk copy file baru.');
         });
 
-        // HISTORY
         function renderHistory() {
             if (history.length === 0) { historySection.style.display = 'none'; return; }
             historySection.style.display = 'block';
             historyList.innerHTML = history.map(item =>
-                '<div class="history-item">' +
-                    '<div class="history-item-icon"><i data-lucide="archive" style="width:15px;height:15px;"></i></div>' +
-                    '<div class="history-item-info">' +
-                        '<div class="history-item-name">' + item.zipName + '</div>' +
-                        '<div class="history-item-meta">' + item.copies + ' file  |  ' + formatFileSize(item.zipSize) + '  |  ' + item.time + '</div>' +
-                    '</div>' +
-                '</div>'
-            ).join('');
-            lucide.createIcons();
+                '<div class="history-item"><div class="history-item-icon"><i data-lucide="archive" style="width:15px;height:15px;"></i></div><div class="history-item-info"><div class="history-item-name">' + item.zipName + '</div><div class="history-item-meta">' + item.copies + ' file  |  ' + formatFileSize(item.zipSize) + '  |  ' + item.time + '</div></div></div>'
+            ).join(''); lucide.createIcons();
         }
         renderHistory();
-        clearHistoryBtn.addEventListener('click', () => {
-            history = [];
-            localStorage.removeItem('copas_history');
-            renderHistory();
-            showToast('info', 'Riwayat Dihapus', 'Semua riwayat telah dihapus.');
-        });
+        clearHistoryBtn.addEventListener('click', () => { history = []; localStorage.removeItem('copas_history'); renderHistory(); showToast('info', 'Riwayat Dihapus', 'Semua riwayat telah dihapus.'); });
 
-        // FAQ
         document.querySelectorAll('.faq-question').forEach(btn => {
             btn.addEventListener('click', () => {
-                const item = btn.parentElement;
-                const isActive = item.classList.contains('active');
-                document.querySelectorAll('.faq-item').forEach(i => {
-                    i.classList.remove('active');
-                    i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
-                });
-                if (!isActive) {
-                    item.classList.add('active');
-                    btn.setAttribute('aria-expanded', 'true');
-                }
+                const item = btn.parentElement; const isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(i => { i.classList.remove('active'); i.querySelector('.faq-question').setAttribute('aria-expanded', 'false'); });
+                if (!isActive) { item.classList.add('active'); btn.setAttribute('aria-expanded', 'true'); }
             });
         });
 
-        // MOBILE MENU
-        function toggleMobileMenu() {
-            const m = document.getElementById('mobileMenu');
-            const b = document.querySelector('.mobile-toggle');
-            m.classList.toggle('active');
-            b.setAttribute('aria-expanded', m.classList.contains('active'));
-        }
-        function closeMobileMenu() {
-            document.getElementById('mobileMenu').classList.remove('active');
-            document.querySelector('.mobile-toggle').setAttribute('aria-expanded', 'false');
-        }
+        function toggleMobileMenu() { const m = document.getElementById('mobileMenu'); const b = document.querySelector('.mobile-toggle'); m.classList.toggle('active'); b.setAttribute('aria-expanded', m.classList.contains('active')); }
+        function closeMobileMenu() { document.getElementById('mobileMenu').classList.remove('active'); document.querySelector('.mobile-toggle').setAttribute('aria-expanded', 'false'); }
 
-        // SCROLL TOP
-        window.addEventListener('scroll', () => {
-            scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
-        });
+        window.addEventListener('scroll', () => { scrollTopBtn.classList.toggle('visible', window.scrollY > 400); });
         scrollTopBtn.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
 
-        // TOAST
         function showToast(type, title, message) {
-            const container = document.getElementById('toastContainer');
-            const icons = { success:'check-circle', error:'x-circle', warning:'alert-triangle', info:'info' };
-            const toast = document.createElement('div');
-            toast.className = 'toast toast-' + type;
-            toast.innerHTML =
-                '<div class="toast-icon"><i data-lucide="' + icons[type] + '" style="width:18px;height:18px;"></i></div>' +
-                '<div class="toast-content"><div class="toast-title">' + title + '</div><div class="toast-message">' + message + '</div></div>' +
-                '<button class="toast-close" aria-label="Tutup notifikasi"><i data-lucide="x" style="width:14px;height:14px;"></i></button>';
-            container.appendChild(toast);
-            lucide.createIcons();
-            const dismiss = () => { toast.classList.add('toast-exit'); setTimeout(() => toast.remove(), 200); };
-            toast.querySelector('.toast-close').addEventListener('click', dismiss);
-            setTimeout(dismiss, 4000);
+            const c = document.getElementById('toastContainer'); const icons = { success:'check-circle', error:'x-circle', warning:'alert-triangle', info:'info' };
+            const t = document.createElement('div'); t.className = 'toast toast-' + type;
+            t.innerHTML = '<div class="toast-icon"><i data-lucide="' + icons[type] + '" style="width:18px;height:18px;"></i></div><div class="toast-content"><div class="toast-title">' + title + '</div><div class="toast-message">' + message + '</div></div><button class="toast-close" aria-label="Tutup"><i data-lucide="x" style="width:14px;height:14px;"></i></button>';
+            c.appendChild(t); lucide.createIcons();
+            const dismiss = () => { t.classList.add('toast-exit'); setTimeout(() => t.remove(), 200); };
+            t.querySelector('.toast-close').addEventListener('click', dismiss); setTimeout(dismiss, 4000);
         }
 
-        // UTILITY
-        function formatFileSize(bytes) {
-            if (bytes === 0) return '0 B';
-            const k = 1024;
-            const s = ['B', 'KB', 'MB', 'GB'];
-            const i = Math.floor(Math.log(bytes) / Math.log(k));
-            return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + ' ' + s[i];
-        }
+        function formatFileSize(bytes) { if (bytes === 0) return '0 B'; const k = 1024; const s = ['B','KB','MB','GB']; const i = Math.floor(Math.log(bytes) / Math.log(k)); return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + ' ' + s[i]; }
 
-        // SCROLL ANIMATIONS
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-
-        document.querySelectorAll('.feature-card, .step-card, .format-card, .faq-item').forEach((el, i) => {
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(20px)';
+        const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) { e.target.style.opacity = '1'; e.target.style.transform = 'translateY(0)'; } }); }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.feature-card, .step-card, .faq-item').forEach((el, i) => {
+            el.style.opacity = '0'; el.style.transform = 'translateY(20px)';
             el.style.transition = 'opacity 0.5s ease ' + (i * 0.04) + 's, transform 0.5s ease ' + (i * 0.04) + 's';
             observer.observe(el);
         });
 
-        // SMOOTH SCROLL
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                const href = this.getAttribute('href');
-                if (href === '#') return;
-                const target = document.querySelector(href);
-                if (target) {
-                    e.preventDefault();
-                    window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' });
-                }
-            });
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', function(e) { const href = this.getAttribute('href'); if (href === '#') return; const t = document.querySelector(href); if (t) { e.preventDefault(); window.scrollTo({ top: t.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' }); } });
         });
     </script>
 </body>
